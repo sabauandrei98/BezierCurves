@@ -1,10 +1,11 @@
 #pragma once
 
 #include <IvGame.h>
-#include "Bezier/BezierCurve.hpp"
-#include "RoadGenerator/RoadGenerator.hpp"
+#include "BezierCurve.hpp"
+#include "RoadGenerator.hpp"
 
 class BezierCurve;
+class RoadGenerator;
 
 class Game : public IvGame
 {
@@ -15,6 +16,7 @@ public:
 
     BezierCurve*     bezierCurve;
     RoadGenerator*   roadGenerator;
+    
 protected:
     virtual void UpdateObjects( float dt );
     virtual void Render();

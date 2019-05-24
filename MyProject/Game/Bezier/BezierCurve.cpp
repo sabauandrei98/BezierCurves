@@ -1,7 +1,7 @@
 #include "BezierCurve.hpp"
 
 BezierCurve::BezierCurve()
-<<<<<<< HEAD
+
 {
     initializeCurveTestData();
 }
@@ -9,19 +9,11 @@ BezierCurve::BezierCurve()
 
 void BezierCurve::initializeCurveTestData()
 {
-=======
-{
-    initializeCurveTestData();
-}
-
-void BezierCurve::initializeCurveTestData()
-{
->>>>>>> ae46f3750af81755f8ab71474737fdf362ea3f8d
     Point p;
     
     p.position = {-5, 0, -5};
     points.push_back(p);
-    
+
     p.position = {-10, 0, 2};
     p.isControl = true;
     points.push_back(p);
@@ -37,7 +29,6 @@ void BezierCurve::initializeCurveTestData()
     p.position = {1, 0, 1};
     p.isControl = true;
     points.push_back(p);
-<<<<<<< HEAD
     
     p.position = {-3, 0, -5};
     p.isControl = true;
@@ -47,17 +38,6 @@ void BezierCurve::initializeCurveTestData()
     p.isControl = false;
     points.push_back(p);
     
-=======
-    
-    p.position = {-3, 0, -5};
-    p.isControl = true;
-    points.push_back(p);
-    
-    p.position = {0, 0, -5};
-    p.isControl = false;
-    points.push_back(p);
-    
->>>>>>> ae46f3750af81755f8ab71474737fdf362ea3f8d
     p.position = {4, 0, -3};
     p.isControl = true;
     points.push_back(p);
@@ -72,10 +52,6 @@ void BezierCurve::initializeCurveTestData()
 }
 
 BezierCurve::~BezierCurve(){}
-<<<<<<< HEAD
-
-=======
->>>>>>> ae46f3750af81755f8ab71474737fdf362ea3f8d
 
 
 void
@@ -90,28 +66,17 @@ BezierCurve::Update( float dt )
     
     //go to prev point
     if (IvGame::mGame->mEventHandler->IsKeyReleased(','))
-<<<<<<< HEAD
     {
         if (editIndex - 1 >= 0)
             editIndex --;
     }
     
-    static unsigned char input[4] = {'w','a','s','d'};
-    for(int i = 0; i < 4; i++)
-    if (IvGame::mGame->mEventHandler->IsKeyDown(input[i]))
-    {
-=======
-    {
-        if (editIndex - 1 >= 0)
-            editIndex --;
-    }
     
     static unsigned char input[4] = {'w','a','s','d'};
     for(int i = 0; i < 4; i++)
     if (IvGame::mGame->mEventHandler->IsKeyDown(input[i]))
     {
->>>>>>> ae46f3750af81755f8ab71474737fdf362ea3f8d
-        
+
         IvVector3 offset = {0, 0, 0};
         if (input[i] == 'w')
             offset.z = editSpeed * dt;
@@ -179,11 +144,8 @@ BezierCurve::Update( float dt )
 }
 
 
-<<<<<<< HEAD
-const IvVector3 BezierCurve::lerp(IvVector3& a, IvVector3& b, float t) const
-=======
 const IvVector3 BezierCurve::lerp(IvVector3& a, IvVector3& b, float t)
->>>>>>> ae46f3750af81755f8ab71474737fdf362ea3f8d
+
 {
     float cx = (float)a.x + (float)(b.x - a.x) * t;
     float cz = (float)a.z + (float)(b.z - a.z) * t;
@@ -236,11 +198,6 @@ void BezierCurve::buildCurve()
     renderPoints.push_back(curvePart[curvePart.size() - 1]);
 }
 
-
-<<<<<<< HEAD
-=======
-
->>>>>>> ae46f3750af81755f8ab71474737fdf362ea3f8d
 void
 BezierCurve::Draw()
 {
@@ -277,7 +234,6 @@ BezierCurve::Draw()
     {
         pointDataPtr[i].position = renderPoints[i];
         pointDataPtr[i].color.Set(0, 255, 0, 255);
-<<<<<<< HEAD
     }
     
     //control LIGHT BLUE color
@@ -327,57 +283,7 @@ BezierCurve::Draw()
     tangentDataPtr[tangendIndex].color.Set(60, 60, 0, 255);
     tangendIndex++;
     
-=======
-    }
-    
-    //control LIGHT BLUE color
-    int controlIndex = 0;
-    for(int i = 0; i < points.size(); i++)
-    {
-        if (points[i].isControl == true)
-        {
-            controlDataPtr[controlIndex].position = points[i].position;
-            
-            //make the editable point YELLOW
-            if(editIndex == i)
-                controlDataPtr[controlIndex].color.Set(255, 255, 0, 255);
-            else
-                controlDataPtr[controlIndex].color.Set(0, 155, 255, 255);
-            
-            controlIndex++;
-        }
-    }
-    
-    //fixed PINK color
-    int fixedIndex = 0;
-    for(int i = 0; i < points.size(); i++)
-    {
-        if (points[i].isControl == false)
-        {
-            fixedDataPtr[fixedIndex].position = points[i].position;
-            
-            //make the editable point YELLOW
-            if(editIndex == i)
-                fixedDataPtr[fixedIndex].color.Set(255, 255, 0, 255);
-            else
-                fixedDataPtr[fixedIndex].color.Set(155, 0, 155, 255);
-            
-            fixedIndex++;
-        }
-    }
-    
-    //tangent LIGHT YELLOW color
-    int tangendIndex = 0;
-    
-    //first point
-    tangentDataPtr[tangendIndex].position = points[1].position;
-    tangentDataPtr[tangendIndex].color.Set(60, 60, 0, 255);
-    tangendIndex++;
-    tangentDataPtr[tangendIndex].position = points[0].position;
-    tangentDataPtr[tangendIndex].color.Set(60, 60, 0, 255);
-    tangendIndex++;
-    
->>>>>>> ae46f3750af81755f8ab71474737fdf362ea3f8d
+
     //last point
     tangentDataPtr[tangendIndex].position = points[points.size()-1].position;
     tangentDataPtr[tangendIndex].color.Set(60, 60, 0, 255);
@@ -408,9 +314,6 @@ BezierCurve::Draw()
             tangendIndex++;
         }
     }
-<<<<<<< HEAD
-    
-    
     
     IvVertexBuffer* lines = IvRenderer::mRenderer->GetResourceManager()->CreateVertexBuffer(kCPFormat, (unsigned int)renderPoints.size(), lineDataPtr,kImmutableUsage);
     IvVertexBuffer* points = IvRenderer::mRenderer->GetResourceManager()->CreateVertexBuffer(kCPFormat, (unsigned int)renderPoints.size(), pointDataPtr,kImmutableUsage);
@@ -418,15 +321,8 @@ BezierCurve::Draw()
     IvVertexBuffer* fixed = IvRenderer::mRenderer->GetResourceManager()->CreateVertexBuffer(kCPFormat, noOfFixed, fixedDataPtr,kImmutableUsage);
     IvVertexBuffer* tangents = IvRenderer::mRenderer->GetResourceManager()->CreateVertexBuffer(kCPFormat, noOfControl * 2, tangentDataPtr,kImmutableUsage);
     IvStackAllocator::mScratchAllocator->Reset(currentOffset);
-=======
->>>>>>> ae46f3750af81755f8ab71474737fdf362ea3f8d
-    
-    IvVertexBuffer* lines = IvRenderer::mRenderer->GetResourceManager()->CreateVertexBuffer(kCPFormat, (unsigned int)renderPoints.size(), lineDataPtr,kImmutableUsage);
-    IvVertexBuffer* points = IvRenderer::mRenderer->GetResourceManager()->CreateVertexBuffer(kCPFormat, (unsigned int)renderPoints.size(), pointDataPtr,kImmutableUsage);
-    IvVertexBuffer* control = IvRenderer::mRenderer->GetResourceManager()->CreateVertexBuffer(kCPFormat, noOfControl, controlDataPtr,kImmutableUsage);
-    IvVertexBuffer* fixed = IvRenderer::mRenderer->GetResourceManager()->CreateVertexBuffer(kCPFormat, noOfFixed, fixedDataPtr,kImmutableUsage);
-    IvVertexBuffer* tangents = IvRenderer::mRenderer->GetResourceManager()->CreateVertexBuffer(kCPFormat, noOfControl * 2, tangentDataPtr,kImmutableUsage);
-    IvStackAllocator::mScratchAllocator->Reset(currentOffset);
+
+
     
     IvSetWorldIdentity();
     
@@ -434,10 +330,6 @@ BezierCurve::Draw()
     IvShaderProgram* oldShader = IvRenderer::mRenderer->GetShaderProgram();
     IvRenderer::mRenderer->SetShaderProgram(0);
     
-<<<<<<< HEAD
-    
-=======
->>>>>>> ae46f3750af81755f8ab71474737fdf362ea3f8d
     IvRenderer::mRenderer->Draw(kLineStripPrim, lines);
     IvRenderer::mRenderer->Draw(kLineListPrim, tangents);
     IvRenderer::mRenderer->Draw(kPointListPrim, points);

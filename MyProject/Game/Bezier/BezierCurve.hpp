@@ -38,7 +38,7 @@ public:
     
 private:
     
-<<<<<<< HEAD
+
     //only for testing
     void initializeCurveTestData();
     
@@ -53,20 +53,6 @@ private:
     
     
     const IvVector3 getPointFromLine(float t, std::vector<IvVector3>& line) const;
-    const IvVector3 lerp(IvVector3& a, IvVector3& b, float t) const;
-=======
-    int editIndex = 0;
-    const float editSpeed = 8.0f;
-    const float tStep = 0.05f;
-    std::vector<Point> points;
-    std::vector<IvVector3> renderPoints;
-    
-    //only for testing
-    void initializeCurveTestData();
-    
-    void buildCurve();
-    void extractPoints(std::vector<IvVector3>& line);
-    const IvVector3 getPointFromLine(float t, std::vector<IvVector3>& line) const;
->>>>>>> ae46f3750af81755f8ab71474737fdf362ea3f8d
+
 };
 

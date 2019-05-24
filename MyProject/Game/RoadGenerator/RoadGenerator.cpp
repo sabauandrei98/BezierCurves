@@ -8,7 +8,7 @@
 #include "RoadGenerator.hpp"
 
 
-RoadGenerator::RoadGenerator(BezierCurve& bezierCurve) : bezier (bezierCurve)
+RoadGenerator::RoadGenerator(BezierCurve* bezierCurve) : bezier (bezierCurve)
 {
     findTrackPoints();
 }

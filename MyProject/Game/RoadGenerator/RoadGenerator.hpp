@@ -26,6 +26,7 @@
 #include "Game.h"
 #include "../Bezier/BezierCurve.hpp"
 
+class BezierCurve;
 
 class RoadGenerator{
     
