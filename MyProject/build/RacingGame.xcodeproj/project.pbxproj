@@ -1,0 +1,1233 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		207A699EF25C468D8012C889 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5209DD1B33224C1BAEDE47F4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				0758A8D11B2240829A3AF74C /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		81D749A4BFBF4345BDFC3687 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7B09C3BFABBA432BAA6D90E3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				E6ABBB9CFBE4448FB1659FD0 /* CMake Rules */,
+			);
+			dependencies = (
+				27D33DBDC03441DBA698FD88 /* PBXTargetDependency */,
+				94523B00F24442188006789F /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		02CFA5B845E4443BBC015602 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvRenderer.cpp */ = {isa = PBXBuildFile; fileRef = 778A692AC4A144189C6FDA23 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvRenderer.cpp */; };
+		02E8DF6D2EDA4F59A1F9B86C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvCovariance.cpp */ = {isa = PBXBuildFile; fileRef = 71EB67A6D72F4247BDCC844C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvCovariance.cpp */; };
+		0353E9E0D74D4B5087E2B512 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvReader.h */ = {isa = PBXBuildFile; fileRef = CE2841EA29114144B9024608 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvReader.h */; };
+		041E1353CA584655935BB5EA /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMatrix44.cpp */ = {isa = PBXBuildFile; fileRef = 8873B3FE59204033863A7C12 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMatrix44.cpp */; };
+		04BDDBEC350D449E8505450B /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/MeshInstance.cpp */ = {isa = PBXBuildFile; fileRef = 16F415EF18644CF68A4C729C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/MeshInstance.cpp */; };
+		082CA30C97FB42A896F8C367 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/SceneNode.cpp */ = {isa = PBXBuildFile; fileRef = B0DFEEC58CB04FBDAAA7FCE5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/SceneNode.cpp */; };
+		0C244BBF4BCE4A1AA155BD40 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvQuat.cpp */ = {isa = PBXBuildFile; fileRef = 19F3AADF88EF4F89959B674F /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvQuat.cpp */; };
+		0DC16A6920AD4E42BDFFE160 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRendererOGL.cpp */ = {isa = PBXBuildFile; fileRef = 772181D7B77448C59D8C77D8 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRendererOGL.cpp */; };
+		113575ACB0EE4552942A1B5C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvFragmentShaderOGL.h */ = {isa = PBXBuildFile; fileRef = 6E0668A3535D41A5A35C85D5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvFragmentShaderOGL.h */; };
+		14E914E293484BE7A226FD11 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMatrix33.cpp */ = {isa = PBXBuildFile; fileRef = E0F94EA5F05A44F29FB42CBC /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMatrix33.cpp */; };
+		15BED306F5984BEC80BCE320 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvLCG64.h */ = {isa = PBXBuildFile; fileRef = 8811916F64104C3CBBCD8B9E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvLCG64.h */; };
+		18B7E856FD7F4E02B009BC88 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvScene/IvIndexedGeometry.h */ = {isa = PBXBuildFile; fileRef = 65AF693E25974ABCB0C48D55 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvScene/IvIndexedGeometry.h */; };
+		199D62C8050249ADAA251016 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvTriangle.h */ = {isa = PBXBuildFile; fileRef = 78846E42E8C449C581BF83A5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvTriangle.h */; };
+		1E3D10E27E114898836D9F2D /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/CameraSceneNode.cpp */ = {isa = PBXBuildFile; fileRef = D7C14616F3014DDC833B60BE /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/CameraSceneNode.cpp */; };
+		1F289E7CFB3C4D89AF90C2F1 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvPlane.h */ = {isa = PBXBuildFile; fileRef = 4A116D46F3514CD28802F058 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvPlane.h */; };
+		1FCAA0240EB34A519C1862FF /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvLinear.cpp */ = {isa = PBXBuildFile; fileRef = DA7B3E2F6B0D4E24A014E65E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvLinear.cpp */; };
+		21A230EE131944ACA23636FB /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvCarryMultiply.h */ = {isa = PBXBuildFile; fileRef = 11187EDFE23A47D98D847EC6 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvCarryMultiply.h */; };
+		230681C83EF44BFFA682DB0D /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector2.h */ = {isa = PBXBuildFile; fileRef = 73257DEB529C433485656ED1 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector2.h */; };
+		231BB169ABBC48059C8E113F /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector2.cpp */ = {isa = PBXBuildFile; fileRef = 9F4254DED69642F2B7086103 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector2.cpp */; };
+		231F8D5B39954FF184060E5B /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvUniformBSpline.h */ = {isa = PBXBuildFile; fileRef = E7CADEC6ACAD44B1A4CCCCAF /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvUniformBSpline.h */; };
+		23479324D0A5424AB0611816 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Game.cpp */ = {isa = PBXBuildFile; fileRef = B8356D91EEAE4D88B8F6B832 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Game.cpp */; };
+		29BD20BDDEF14226BFA8FD50 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvCovariance.h */ = {isa = PBXBuildFile; fileRef = 39C9793E969946CFA9ADD775 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvCovariance.h */; };
+		3096C6DA95A24C76B300EA83 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvCapsule.cpp */ = {isa = PBXBuildFile; fileRef = 45BD06CEDE794CCCA52EE45E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvCapsule.cpp */; };
+		30A82FB405F347829ABB9147 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvFragmentShaderOGL.cpp */ = {isa = PBXBuildFile; fileRef = 45AB10741B414589A937A7C6 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvFragmentShaderOGL.cpp */; };
+		311BCEDD5CA7452CB44779CE /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvFrameBufferOGL.h */ = {isa = PBXBuildFile; fileRef = E729FFA95C4941639683178C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvFrameBufferOGL.h */; };
+		317EEFE8B4484841AE5F39B3 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvFrameBufferOGL.cpp */ = {isa = PBXBuildFile; fileRef = BC9F33343D79415793E89E21 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvFrameBufferOGL.cpp */; };
+		37E4B82D763E42A2832A3AAA /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMath.h */ = {isa = PBXBuildFile; fileRef = C9828CA27FE8478998830106 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMath.h */; };
+		42302035405B4B9C8CF99073 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/CameraTestControler.cpp */ = {isa = PBXBuildFile; fileRef = 404372E638114F7E96868B04 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/CameraTestControler.cpp */; };
+		4274747083A34EE08301F779 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvCapsule.h */ = {isa = PBXBuildFile; fileRef = 87C9462D68844484BFAF3F47 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvCapsule.h */; };
+		42BF19A27C374C34B967EADB /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/RandomIncludes.cpp */ = {isa = PBXBuildFile; fileRef = ABEF090007804C0D865292E3 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/RandomIncludes.cpp */; };
+		471829E55E4641F487DB207B /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvScene/IvHierarchy.h */ = {isa = PBXBuildFile; fileRef = CE609FE31D9F4959BB48247E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvScene/IvHierarchy.h */; };
+		4823CCFEC78E40C18A9AC028 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvTextureOGL.h */ = {isa = PBXBuildFile; fileRef = 631FB14B2B6A43A79822A77C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvTextureOGL.h */; };
+		48F5590A5DCC4B3FA820FA55 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvRay3.h */ = {isa = PBXBuildFile; fileRef = 8968E7D51DE441A18B67BB63 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvRay3.h */; };
+		4D475D3C6B0747448C1C4EC7 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvWriter.h */ = {isa = PBXBuildFile; fileRef = AB422B5362CE47F38DC8DA23 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvWriter.h */; };
+		4F0B25E49E8E44FA8B5D30F6 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvVertexShader.h */ = {isa = PBXBuildFile; fileRef = E48A7637ED0B49418F063430 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvVertexShader.h */; };
+		501F9DEEC5D84377B657C5E8 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvRendererHelp.cpp */ = {isa = PBXBuildFile; fileRef = 8AF87F8DFB9148DDB4A751DE /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvRendererHelp.cpp */; };
+		52711763FE424EFEB816CD62 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvTeapot.cpp */ = {isa = PBXBuildFile; fileRef = 92BA445D88D14899BB44FB86 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvTeapot.cpp */; };
+		53796A6603724D8881875169 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/OGL/IvMainOGL.cpp */ = {isa = PBXBuildFile; fileRef = E59CB7A6EDEF4046A0298625 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/OGL/IvMainOGL.cpp */; };
+		538ADB8D77824A2FB9C44389 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvUniform.h */ = {isa = PBXBuildFile; fileRef = EAFEB0A02B1B4776ADDDB813 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvUniform.h */; };
+		53E5A52AAD944CA5B38386A5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvBezier.cpp */ = {isa = PBXBuildFile; fileRef = 62D44423EB18412E8B4CB239 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvBezier.cpp */; };
+		54542E9C939B4022A876AAE2 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvGaussianElim.h */ = {isa = PBXBuildFile; fileRef = 7A187DBC739A4B4CAF9689D6 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvGaussianElim.h */; };
+		54569F717D8E4400BA55AD83 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvLine3.cpp */ = {isa = PBXBuildFile; fileRef = 18EB719B07EF4DB18B55B000 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvLine3.cpp */; };
+		553A0EF538F443788EA1FECD /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvGame.h */ = {isa = PBXBuildFile; fileRef = 062165DF1556487A903DF4F3 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvGame.h */; };
+		59890E4105154591B5FE79F1 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvRenderer.h */ = {isa = PBXBuildFile; fileRef = 58A3A78D8CE148DE9FEECDC3 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvRenderer.h */; };
+		61B9AF4830BA4E77ABC861AA /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvClock.h */ = {isa = PBXBuildFile; fileRef = 442D82E86B924729BB7B56ED /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvClock.h */; };
+		65674EB4D6DE46569D2D33E5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvVertexShaderOGL.cpp */ = {isa = PBXBuildFile; fileRef = 4F34ECA805CC47D69C4BEF94 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvVertexShaderOGL.cpp */; };
+		6740FDAC7CB04EFD97F0C62B /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvTexture.h */ = {isa = PBXBuildFile; fileRef = 51234C7CECFE4B0B9BCE6F75 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvTexture.h */; };
+		6B5572A8C6754748875351B2 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvResourceManager.h */ = {isa = PBXBuildFile; fileRef = 527F38F79BE84127BC1FEE8A /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvResourceManager.h */; };
+		6B955373CE4C40E38D2B4ACB /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvOBB.cpp */ = {isa = PBXBuildFile; fileRef = 6C2D575240E946FD98DF1BA0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvOBB.cpp */; };
+		6CE3B69F29A645D08A6C3AFD /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/NodeAnimator.cpp */ = {isa = PBXBuildFile; fileRef = C1662AA6E7C44B629ECF4202 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/NodeAnimator.cpp */; };
+		70F9763E51AB46F78A187BEF /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7A3EFB7B8CAF4DB289CFB5F7 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/CMakeLists.txt */; };
+		76DE0DED64EC46948A7A655F /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvAABB.h */ = {isa = PBXBuildFile; fileRef = 8DBB151E6BE24FBF80DEDD8E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvAABB.h */; };
+		78A14B9EB6454F6C854EDD84 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/Mesh.cpp */ = {isa = PBXBuildFile; fileRef = 3B9FB1550F6F41D7A468E6A6 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/Mesh.cpp */; };
+		79028EA64A874AA498F72192 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvEventHandler.h */ = {isa = PBXBuildFile; fileRef = 5CEC06D0E0624D638FEA79D8 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvEventHandler.h */; };
+		7B1C317B0FE94717B4F7B11B /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvOBB.h */ = {isa = PBXBuildFile; fileRef = 8DF96EB9AB1F423280DCC053 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvOBB.h */; };
+		7CEDB82FFB1E4EE49AA69167 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRenderTargetOGL.cpp */ = {isa = PBXBuildFile; fileRef = 36B2028A759A4139947AE9CB /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRenderTargetOGL.cpp */; };
+		7CF0CB95A8834F2CA0A7841F /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvGaussianElim.cpp */ = {isa = PBXBuildFile; fileRef = 2689BA2F8F1E4B468A66538E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvGaussianElim.cpp */; };
+		803C08400DB2465E924B24E4 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvCatmullRom.h */ = {isa = PBXBuildFile; fileRef = 8AC5F2210F0642BD952AA7B1 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvCatmullRom.h */; };
+		885A4761C1E24764BCCE2235 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvLine3.h */ = {isa = PBXBuildFile; fileRef = BDFC48332568415F82572113 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvLine3.h */; };
+		89E1DB30C62E4B26A069DF67 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvShaderProgram.h */ = {isa = PBXBuildFile; fileRef = 57902C70A9B248D0BFE203CC /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvShaderProgram.h */; };
+		8A86C0DC3B114B2DA4ED426C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvVertexBufferOGL.cpp */ = {isa = PBXBuildFile; fileRef = 51634AD672224A4BA2ED1F36 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvVertexBufferOGL.cpp */; };
+		8B481F5AA37D4B38B3FA8CFC /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/NodeTransform.cpp */ = {isa = PBXBuildFile; fileRef = E82065D202B14D299E2F1B96 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/NodeTransform.cpp */; };
+		8BDE6154D0174EF4BCC4DB39 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRendererHelpOGL.h */ = {isa = PBXBuildFile; fileRef = 0424FEB9A93E497197AFE346 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRendererHelpOGL.h */; };
+		8E151C4FECA4460FBDBF360D /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvAABB.cpp */ = {isa = PBXBuildFile; fileRef = 6DEF6E5C37FE4DEBADB80BC8 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvAABB.cpp */; };
+		9378A47766FC408BAA010746 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvGame.cpp */ = {isa = PBXBuildFile; fileRef = F72D5344A737486985B19FE0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvGame.cpp */; };
+		95AD6427483D43869E1B3F01 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvFileReader.h */ = {isa = PBXBuildFile; fileRef = AB95929923C54FE18CFEB610 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvFileReader.h */; };
+		96664FDAA9634437AB93AC8F /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvBoundingSphere.h */ = {isa = PBXBuildFile; fileRef = 3D6098AA93384081AAB77B64 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvBoundingSphere.h */; };
+		96D92C150A9E4449BD45015F /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvRay3.cpp */ = {isa = PBXBuildFile; fileRef = FB42C7A657044D6886FAC29F /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvRay3.cpp */; };
+		96E5B6420AC147E8A0EEAC27 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvScene/IvIndexedGeometry.cpp */ = {isa = PBXBuildFile; fileRef = 8D1DB0FC7FD74530A15F3932 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvScene/IvIndexedGeometry.cpp */; };
+		977153A6EBD04FDBAA1A0A99 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvDebugger.h */ = {isa = PBXBuildFile; fileRef = 57B59566BD2D4CE09576808D /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvDebugger.h */; };
+		9C0B6375C4DB429C9C29E979 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvShaderProgramOGL.cpp */ = {isa = PBXBuildFile; fileRef = 1611F534581341B49425FD03 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvShaderProgramOGL.cpp */; };
+		A2A647EA12C44A5792F02B28 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvRendererHelp.h */ = {isa = PBXBuildFile; fileRef = B8567389CE1C47DC84814388 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvRendererHelp.h */; };
+		A76C0C392BF84C4A9F092CB9 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvVertexBuffer.h */ = {isa = PBXBuildFile; fileRef = 4FBA443C429F433AB21E8546 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvVertexBuffer.h */; };
+		A8082D842FE74569B530B604 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvEventHandler.cpp */ = {isa = PBXBuildFile; fileRef = 4F50FD82E3384EE3B940E7D0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvEventHandler.cpp */; };
+		A9A4AF79C09E43B49C36902B /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvShaderProgramOGL.h */ = {isa = PBXBuildFile; fileRef = 3F6AA66C7C3C46F8ABF5A0D0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvShaderProgramOGL.h */; };
+		AB1D53D7D3924EABA3A13128 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector3.cpp */ = {isa = PBXBuildFile; fileRef = 8C029CBC843D4B37B97947B8 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector3.cpp */; };
+		AB7185AECD234AB5A85F3B12 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvXorshift.h */ = {isa = PBXBuildFile; fileRef = 42ACAEF0F5F041F1BDB04B62 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvXorshift.h */; };
+		ADBE2C1F4C0B4B70816F0F65 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvTextureOGL.cpp */ = {isa = PBXBuildFile; fileRef = 22BAA2D1E391413C8351BF32 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvTextureOGL.cpp */; };
+		B2CFD2C4B87B4B899B8FB723 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvFragmentShader.h */ = {isa = PBXBuildFile; fileRef = 69D2CF5F08C8418EBDC3F1D5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvFragmentShader.h */; };
+		B5774166FABF4AF2A57986F3 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvMersenne.cpp */ = {isa = PBXBuildFile; fileRef = 3BE6081B575D470E8A4B1CE8 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvMersenne.cpp */; };
+		B8CFB8B0C5904FF5B8CA97A8 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvScene/IvHierarchy.cpp */ = {isa = PBXBuildFile; fileRef = 2DB04279FF3F4A4F9CA44A10 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvScene/IvHierarchy.cpp */; };
+		BAE4F8FD931D48229FAAE9F9 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvImage.cpp */ = {isa = PBXBuildFile; fileRef = FAB05B87381D4440B4ADB8CE /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvImage.cpp */; };
+		BB5CC0A561E44A67B7DE8C4B /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMath.cpp */ = {isa = PBXBuildFile; fileRef = 9896ACADB6524BB394327E4E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMath.cpp */; };
+		BDA9890174ED4B56841FB0EA /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvTypes.h */ = {isa = PBXBuildFile; fileRef = E7EE387EC30B43618FD330D1 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvTypes.h */; };
+		C098BF31CA064F78AB3CAEC8 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvKISS.h */ = {isa = PBXBuildFile; fileRef = BDDBD55EA1484BCC9E401BC4 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvKISS.h */; };
+		C0F884089D384794895437F3 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvVertexShaderOGL.h */ = {isa = PBXBuildFile; fileRef = 622D06204E0747CB86EAD17D /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvVertexShaderOGL.h */; };
+		C1FF73C0EEE9479C910FE8CC /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvUniformOGL.cpp */ = {isa = PBXBuildFile; fileRef = D2FB350BB78E431CBB90554B /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvUniformOGL.cpp */; };
+		C26F1145A2B14D738521246C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Camera.cpp */ = {isa = PBXBuildFile; fileRef = 7E16487B2D24443A9D15D7FA /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Camera.cpp */; };
+		C34E6B25BB15400186CDED29 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvPlane.cpp */ = {isa = PBXBuildFile; fileRef = 0AF7D26B1C6A4DBDBFAFC9F7 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvPlane.cpp */; };
+		C4B86916478B4D7ABBA22A9D /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRenderTargetOGL.h */ = {isa = PBXBuildFile; fileRef = 61E7D40220254DAA8E3802E5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRenderTargetOGL.h */; };
+		C73DE9032F1C4E6EA84F1721 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvLineSegment3.cpp */ = {isa = PBXBuildFile; fileRef = 6BEF6CBCFD164A2A8D305DB5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvLineSegment3.cpp */; };
+		C79C4F5BE09B4143980B3672 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvResourceManagerOGL.h */ = {isa = PBXBuildFile; fileRef = 1860320E134549E0A6F610C2 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvResourceManagerOGL.h */; };
+		C81BAADECB484162A67E14D9 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvIndexBufferOGL.h */ = {isa = PBXBuildFile; fileRef = 6BB4375922D34C579AFCAF6E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvIndexBufferOGL.h */; };
+		C96B6957066647B19392E8CD /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestCustomAttributes/Test.cpp */ = {isa = PBXBuildFile; fileRef = 6ACE72FBE6464543A7A84675 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestCustomAttributes/Test.cpp */; };
+		CAF426ABBCBC4A41B96081FE /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvColor.h */ = {isa = PBXBuildFile; fileRef = CDA60D32B97A4802872FC43A /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvColor.h */; };
+		CCBE7ED69C4F4A52AC4D31FA /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvCustomVertexFormat.cpp */ = {isa = PBXBuildFile; fileRef = D94F3EB8D9ED4B0490080352 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvCustomVertexFormat.cpp */; };
+		CE202C5998A6420689342077 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvDebugger.cpp */ = {isa = PBXBuildFile; fileRef = 85D87E5AAE994735AB205F04 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvDebugger.cpp */; };
+		CEAA417A65A5418997D7857B /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvTeapot.h */ = {isa = PBXBuildFile; fileRef = 8D3ED4EDB2044B4C8D950190 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvTeapot.h */; };
+		D03FFB8659FE49C2BFA7AF9A /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvBezier.h */ = {isa = PBXBuildFile; fileRef = 7289A91AB05647ECBF7B4FC0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvBezier.h */; };
+		D11BFA646CBA410EB15D2A16 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector4.cpp */ = {isa = PBXBuildFile; fileRef = 0EEBE96901B54D198EFBFD71 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector4.cpp */; };
+		D240E0D1E33046A896E0950E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvVertexFormats.h */ = {isa = PBXBuildFile; fileRef = 8F6278DE66B74392B1C30D05 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvVertexFormats.h */; };
+		D405D46DDBB84207965AE1BB /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvIndexBuffer.h */ = {isa = PBXBuildFile; fileRef = 6D5B3409577C43ECAC8CEC17 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvIndexBuffer.h */; };
+		D50EB8CA7DD142C4B7D46E21 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector3.h */ = {isa = PBXBuildFile; fileRef = 761E100EE17B468E9FCF3DF9 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector3.h */; };
+		D529C31B9D27449B816F3193 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Player/Player.cpp */ = {isa = PBXBuildFile; fileRef = 18D7FA4E8E564F21A7886A4B /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Player/Player.cpp */; };
+		D60E85D5C02F490E971AF5B5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvCatmullRom.cpp */ = {isa = PBXBuildFile; fileRef = DC37AEF881D44FE59EFD1896 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvCatmullRom.cpp */; };
+		D641E7E9007D476483305159 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector4.h */ = {isa = PBXBuildFile; fileRef = 787F0FC8D1104E17A50BE284 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector4.h */; };
+		D69C6F0B23E84A00872B2117 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvBoundingSphere.cpp */ = {isa = PBXBuildFile; fileRef = 92619F11CE884E1892BC1483 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvBoundingSphere.cpp */; };
+		D7F36D9F653245FAB2ADF541 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvResourceManagerOGL.cpp */ = {isa = PBXBuildFile; fileRef = F8AD05FFB9ED4B508C402554 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvResourceManagerOGL.cpp */; };
+		D812C3A974C146C08620C9CA /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRendererHelpOGL.cpp */ = {isa = PBXBuildFile; fileRef = 6827BBF63A9F4A29AFD6EF2D /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRendererHelpOGL.cpp */; };
+		D9B7AB5D5BE842EAAD51F974 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestRenderTargets/Shape.cpp */ = {isa = PBXBuildFile; fileRef = 3890CB0C972547B09C4F1008 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestRenderTargets/Shape.cpp */; };
+		DAD3BB3FE26C4644BC8C82DC /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvTextureFormats.h */ = {isa = PBXBuildFile; fileRef = 88472604A83F484A8CCFB543 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvTextureFormats.h */; };
+		DB30CF4929A84ADCA8F1B0F6 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvStackAllocator.cpp */ = {isa = PBXBuildFile; fileRef = 3ED8BC4EED984680AAF0EA18 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvStackAllocator.cpp */; };
+		DBC8E91BBA6E4857B6266DBE /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvQuat.h */ = {isa = PBXBuildFile; fileRef = A5346D08FECA46E29118530C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvQuat.h */; };
+		DE00192F8CC54CA2AB77CFF9 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvLineSegment3.h */ = {isa = PBXBuildFile; fileRef = B8BCEDE270A147DD93E8D1F0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvLineSegment3.h */; };
+		E03298FAB61C4B45A31841E2 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvLinear.h */ = {isa = PBXBuildFile; fileRef = 34DC99B449D9437C9E7C2BB4 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvLinear.h */; };
+		E1EB7A159ADE437DA8E93909 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvUniformBSpline.cpp */ = {isa = PBXBuildFile; fileRef = 2466C51B286E481F8CD7AE09 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvUniformBSpline.cpp */; };
+		E314DC90DCEA491599B7B956 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvMersenne.h */ = {isa = PBXBuildFile; fileRef = ADAFD82E3F3A47C6BF00D6CF /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvMersenne.h */; };
+		E39CCBDACCBD460F88AE41A4 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMatrix44.h */ = {isa = PBXBuildFile; fileRef = C30FD75EA288496BAB0653B7 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMatrix44.h */; };
+		E4E36953A28F4D399B548228 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvVertexBufferOGL.h */ = {isa = PBXBuildFile; fileRef = FFC0D943C9E647FB82EAF64F /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvVertexBufferOGL.h */; };
+		E520F6D1226842188BDD578B /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvTriangle.cpp */ = {isa = PBXBuildFile; fileRef = 2A1FC4BB7E3F477D99E44B98 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvTriangle.cpp */; };
+		E6F2E437920B4C69BEFA77F0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestRenderTargets/TestRT.cpp */ = {isa = PBXBuildFile; fileRef = 7CB6CCE0F81E4C76BEA8F4F1 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestRenderTargets/TestRT.cpp */; };
+		E83FA23E3B4E4CBF8251C1B4 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvStackAllocator.h */ = {isa = PBXBuildFile; fileRef = 9113AAAD52994F2DA96207D5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvStackAllocator.h */; };
+		EA97C54B0BA347F78F541A69 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvUniformOGL.h */ = {isa = PBXBuildFile; fileRef = 90AFF260BFED404F8BAA32C7 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvUniformOGL.h */; };
+		EC22C2CB6FC84B5FA826BB19 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvImage.h */ = {isa = PBXBuildFile; fileRef = E6B079D5ABCA48089AEEA0B7 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvImage.h */; };
+		EC57A93A0B6645F2AFDCF2A5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMatrix33.h */ = {isa = PBXBuildFile; fileRef = 3AE3431BE2C0428B95C054C0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMatrix33.h */; };
+		EC6EFADE132A4265AD23633A /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvHermite.h */ = {isa = PBXBuildFile; fileRef = F35487DF7B6641E8A36583A6 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvHermite.h */; };
+		EE24A7E22D65445BB830230B /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/RenderPacket.cpp */ = {isa = PBXBuildFile; fileRef = 839575E754C7452CA07B4FA5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/RenderPacket.cpp */; };
+		F0353F8DE3A54A09B46EC44F /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvIndexBufferOGL.cpp */ = {isa = PBXBuildFile; fileRef = 6B12A48DCD0942B1AA5FE032 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvIndexBufferOGL.cpp */; };
+		F1EAD06682AB4027898F4F9F /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvLCGPrime.h */ = {isa = PBXBuildFile; fileRef = BC7F2848085A4BA885DE5CDC /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvLCGPrime.h */; };
+		F46D500E3D3A458FB04A7893 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvAssert.h */ = {isa = PBXBuildFile; fileRef = 519DF91D81EC498196E7547C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvAssert.h */; };
+		F4C12A6525374F5C9585D35D /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvFrameBuffer.h */ = {isa = PBXBuildFile; fileRef = D87F7EF858884F02B15928B2 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvFrameBuffer.h */; };
+		F7611C14341F4EFCB75EE8DF /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvHermite.cpp */ = {isa = PBXBuildFile; fileRef = EFC71DDC04C14743A6A530DD /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvHermite.cpp */; };
+		F7BBCDE50EBB491C96A26CCE /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvRenderTarget.h */ = {isa = PBXBuildFile; fileRef = 7F56D6C5E7A943609CF8695E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvRenderTarget.h */; };
+		FAB88F7FE8604A27B9F19D41 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/SceneGraph.cpp */ = {isa = PBXBuildFile; fileRef = 69D01316DC5A4BAF81F731FF /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/SceneGraph.cpp */; };
+		FC1F50153A034194B460E73B /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRendererOGL.h */ = {isa = PBXBuildFile; fileRef = E1BCC3303EEA49AABC98442D /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRendererOGL.h */; };
+		FD583A660F934E28AC888F99 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvClock.cpp */ = {isa = PBXBuildFile; fileRef = 9FF569C459044E18A054F9FC /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvClock.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0358E9E5834740869715FDA2 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		AF0C29D6714B4B7C8699E4FE /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		B1EEBD72BD6C423FB2AA9C1D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E22C572A94F34AA4A34DEA12 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		86D423ED72A8409FAF9C6945 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D606DB76367D49EDB6E4E8FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 207A699EF25C468D8012C889;
+			remoteInfo = ZERO_CHECK;
+		};
+		CC6EF616D9124C0A8AD699ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D606DB76367D49EDB6E4E8FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 207A699EF25C468D8012C889;
+			remoteInfo = ZERO_CHECK;
+		};
+		CE0F29FBDECF4A93900F0966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D606DB76367D49EDB6E4E8FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58362941896C4AEDB6734373;
+			remoteInfo = RacingGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0424FEB9A93E497197AFE346 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRendererHelpOGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvRendererHelpOGL.h; path = IvGraphics/OGL/IvRendererHelpOGL.h; sourceTree = SOURCE_ROOT; };
+		062165DF1556487A903DF4F3 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvGame.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvGame.h; path = IvEngine/IvGame.h; sourceTree = SOURCE_ROOT; };
+		0AF7D26B1C6A4DBDBFAFC9F7 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvPlane.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvPlane.cpp; path = IvMath/IvPlane.cpp; sourceTree = SOURCE_ROOT; };
+		0EEBE96901B54D198EFBFD71 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector4.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvVector4.cpp; path = IvMath/IvVector4.cpp; sourceTree = SOURCE_ROOT; };
+		11187EDFE23A47D98D847EC6 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvCarryMultiply.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvCarryMultiply.h; path = IvRandom/IvCarryMultiply.h; sourceTree = SOURCE_ROOT; };
+		1611F534581341B49425FD03 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvShaderProgramOGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvShaderProgramOGL.cpp; path = IvGraphics/OGL/IvShaderProgramOGL.cpp; sourceTree = SOURCE_ROOT; };
+		16F415EF18644CF68A4C729C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/MeshInstance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MeshInstance.cpp; path = Game/SceneManagement/MeshInstance.cpp; sourceTree = SOURCE_ROOT; };
+		1860320E134549E0A6F610C2 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvResourceManagerOGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvResourceManagerOGL.h; path = IvGraphics/OGL/IvResourceManagerOGL.h; sourceTree = SOURCE_ROOT; };
+		18D7FA4E8E564F21A7886A4B /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Player/Player.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Player.cpp; path = Game/Player/Player.cpp; sourceTree = SOURCE_ROOT; };
+		18EB719B07EF4DB18B55B000 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvLine3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvLine3.cpp; path = IvMath/IvLine3.cpp; sourceTree = SOURCE_ROOT; };
+		19F3AADF88EF4F89959B674F /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvQuat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvQuat.cpp; path = IvMath/IvQuat.cpp; sourceTree = SOURCE_ROOT; };
+		22BAA2D1E391413C8351BF32 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvTextureOGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvTextureOGL.cpp; path = IvGraphics/OGL/IvTextureOGL.cpp; sourceTree = SOURCE_ROOT; };
+		2466C51B286E481F8CD7AE09 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvUniformBSpline.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvUniformBSpline.cpp; path = IvCurves/IvUniformBSpline.cpp; sourceTree = SOURCE_ROOT; };
+		2689BA2F8F1E4B468A66538E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvGaussianElim.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvGaussianElim.cpp; path = IvMath/IvGaussianElim.cpp; sourceTree = SOURCE_ROOT; };
+		2A1FC4BB7E3F477D99E44B98 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvTriangle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvTriangle.cpp; path = IvMath/IvTriangle.cpp; sourceTree = SOURCE_ROOT; };
+		2DB04279FF3F4A4F9CA44A10 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvScene/IvHierarchy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvHierarchy.cpp; path = IvScene/IvHierarchy.cpp; sourceTree = SOURCE_ROOT; };
+		3169C4B885674716B095AA04 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		34DC99B449D9437C9E7C2BB4 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvLinear.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvLinear.h; path = IvCurves/IvLinear.h; sourceTree = SOURCE_ROOT; };
+		36B2028A759A4139947AE9CB /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRenderTargetOGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvRenderTargetOGL.cpp; path = IvGraphics/OGL/IvRenderTargetOGL.cpp; sourceTree = SOURCE_ROOT; };
+		3890CB0C972547B09C4F1008 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestRenderTargets/Shape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Shape.cpp; path = Game/Test/TestRenderTargets/Shape.cpp; sourceTree = SOURCE_ROOT; };
+		39C9793E969946CFA9ADD775 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvCovariance.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvCovariance.h; path = IvCollision/IvCovariance.h; sourceTree = SOURCE_ROOT; };
+		3AE3431BE2C0428B95C054C0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMatrix33.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvMatrix33.h; path = IvMath/IvMatrix33.h; sourceTree = SOURCE_ROOT; };
+		3B9FB1550F6F41D7A468E6A6 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/Mesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Mesh.cpp; path = Game/SceneManagement/Mesh.cpp; sourceTree = SOURCE_ROOT; };
+		3BE6081B575D470E8A4B1CE8 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvMersenne.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvMersenne.cpp; path = IvRandom/IvMersenne.cpp; sourceTree = SOURCE_ROOT; };
+		3D6098AA93384081AAB77B64 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvBoundingSphere.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvBoundingSphere.h; path = IvCollision/IvBoundingSphere.h; sourceTree = SOURCE_ROOT; };
+		3ED8BC4EED984680AAF0EA18 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvStackAllocator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvStackAllocator.cpp; path = IvUtility/IvStackAllocator.cpp; sourceTree = SOURCE_ROOT; };
+		3F6AA66C7C3C46F8ABF5A0D0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvShaderProgramOGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvShaderProgramOGL.h; path = IvGraphics/OGL/IvShaderProgramOGL.h; sourceTree = SOURCE_ROOT; };
+		404372E638114F7E96868B04 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/CameraTestControler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CameraTestControler.cpp; path = Game/CameraTestControler.cpp; sourceTree = SOURCE_ROOT; };
+		42ACAEF0F5F041F1BDB04B62 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvXorshift.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvXorshift.h; path = IvRandom/IvXorshift.h; sourceTree = SOURCE_ROOT; };
+		442D82E86B924729BB7B56ED /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvClock.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvClock.h; path = IvEngine/IvClock.h; sourceTree = SOURCE_ROOT; };
+		45AB10741B414589A937A7C6 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvFragmentShaderOGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvFragmentShaderOGL.cpp; path = IvGraphics/OGL/IvFragmentShaderOGL.cpp; sourceTree = SOURCE_ROOT; };
+		45BD06CEDE794CCCA52EE45E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvCapsule.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvCapsule.cpp; path = IvCollision/IvCapsule.cpp; sourceTree = SOURCE_ROOT; };
+		4A116D46F3514CD28802F058 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvPlane.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvPlane.h; path = IvMath/IvPlane.h; sourceTree = SOURCE_ROOT; };
+		4F34ECA805CC47D69C4BEF94 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvVertexShaderOGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvVertexShaderOGL.cpp; path = IvGraphics/OGL/IvVertexShaderOGL.cpp; sourceTree = SOURCE_ROOT; };
+		4F50FD82E3384EE3B940E7D0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvEventHandler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvEventHandler.cpp; path = IvEngine/IvEventHandler.cpp; sourceTree = SOURCE_ROOT; };
+		4FBA443C429F433AB21E8546 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvVertexBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvVertexBuffer.h; path = IvGraphics/IvVertexBuffer.h; sourceTree = SOURCE_ROOT; };
+		51234C7CECFE4B0B9BCE6F75 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvTexture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvTexture.h; path = IvGraphics/IvTexture.h; sourceTree = SOURCE_ROOT; };
+		51634AD672224A4BA2ED1F36 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvVertexBufferOGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvVertexBufferOGL.cpp; path = IvGraphics/OGL/IvVertexBufferOGL.cpp; sourceTree = SOURCE_ROOT; };
+		519DF91D81EC498196E7547C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvAssert.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvAssert.h; path = IvUtility/IvAssert.h; sourceTree = SOURCE_ROOT; };
+		527F38F79BE84127BC1FEE8A /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvResourceManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvResourceManager.h; path = IvGraphics/IvResourceManager.h; sourceTree = SOURCE_ROOT; };
+		57902C70A9B248D0BFE203CC /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvShaderProgram.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvShaderProgram.h; path = IvGraphics/IvShaderProgram.h; sourceTree = SOURCE_ROOT; };
+		57B59566BD2D4CE09576808D /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvDebugger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvDebugger.h; path = IvUtility/IvDebugger.h; sourceTree = SOURCE_ROOT; };
+		58A3A78D8CE148DE9FEECDC3 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvRenderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvRenderer.h; path = IvGraphics/IvRenderer.h; sourceTree = SOURCE_ROOT; };
+		5CEC06D0E0624D638FEA79D8 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvEventHandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvEventHandler.h; path = IvEngine/IvEventHandler.h; sourceTree = SOURCE_ROOT; };
+		61E7D40220254DAA8E3802E5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRenderTargetOGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvRenderTargetOGL.h; path = IvGraphics/OGL/IvRenderTargetOGL.h; sourceTree = SOURCE_ROOT; };
+		622D06204E0747CB86EAD17D /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvVertexShaderOGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvVertexShaderOGL.h; path = IvGraphics/OGL/IvVertexShaderOGL.h; sourceTree = SOURCE_ROOT; };
+		62D44423EB18412E8B4CB239 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvBezier.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvBezier.cpp; path = IvCurves/IvBezier.cpp; sourceTree = SOURCE_ROOT; };
+		631FB14B2B6A43A79822A77C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvTextureOGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvTextureOGL.h; path = IvGraphics/OGL/IvTextureOGL.h; sourceTree = SOURCE_ROOT; };
+		65AF693E25974ABCB0C48D55 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvScene/IvIndexedGeometry.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvIndexedGeometry.h; path = IvScene/IvIndexedGeometry.h; sourceTree = SOURCE_ROOT; };
+		6827BBF63A9F4A29AFD6EF2D /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRendererHelpOGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvRendererHelpOGL.cpp; path = IvGraphics/OGL/IvRendererHelpOGL.cpp; sourceTree = SOURCE_ROOT; };
+		69D01316DC5A4BAF81F731FF /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/SceneGraph.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SceneGraph.cpp; path = Game/SceneManagement/SceneGraph.cpp; sourceTree = SOURCE_ROOT; };
+		69D2CF5F08C8418EBDC3F1D5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvFragmentShader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvFragmentShader.h; path = IvGraphics/IvFragmentShader.h; sourceTree = SOURCE_ROOT; };
+		6ACE72FBE6464543A7A84675 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestCustomAttributes/Test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Test.cpp; path = Game/Test/TestCustomAttributes/Test.cpp; sourceTree = SOURCE_ROOT; };
+		6B12A48DCD0942B1AA5FE032 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvIndexBufferOGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvIndexBufferOGL.cpp; path = IvGraphics/OGL/IvIndexBufferOGL.cpp; sourceTree = SOURCE_ROOT; };
+		6BB4375922D34C579AFCAF6E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvIndexBufferOGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvIndexBufferOGL.h; path = IvGraphics/OGL/IvIndexBufferOGL.h; sourceTree = SOURCE_ROOT; };
+		6BEF6CBCFD164A2A8D305DB5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvLineSegment3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvLineSegment3.cpp; path = IvMath/IvLineSegment3.cpp; sourceTree = SOURCE_ROOT; };
+		6C2D575240E946FD98DF1BA0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvOBB.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvOBB.cpp; path = IvCollision/IvOBB.cpp; sourceTree = SOURCE_ROOT; };
+		6D5B3409577C43ECAC8CEC17 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvIndexBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvIndexBuffer.h; path = IvGraphics/IvIndexBuffer.h; sourceTree = SOURCE_ROOT; };
+		6DEF6E5C37FE4DEBADB80BC8 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvAABB.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvAABB.cpp; path = IvCollision/IvAABB.cpp; sourceTree = SOURCE_ROOT; };
+		6E0668A3535D41A5A35C85D5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvFragmentShaderOGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvFragmentShaderOGL.h; path = IvGraphics/OGL/IvFragmentShaderOGL.h; sourceTree = SOURCE_ROOT; };
+		71EB67A6D72F4247BDCC844C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvCovariance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvCovariance.cpp; path = IvCollision/IvCovariance.cpp; sourceTree = SOURCE_ROOT; };
+		7289A91AB05647ECBF7B4FC0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvBezier.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvBezier.h; path = IvCurves/IvBezier.h; sourceTree = SOURCE_ROOT; };
+		73257DEB529C433485656ED1 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvVector2.h; path = IvMath/IvVector2.h; sourceTree = SOURCE_ROOT; };
+		761E100EE17B468E9FCF3DF9 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvVector3.h; path = IvMath/IvVector3.h; sourceTree = SOURCE_ROOT; };
+		772181D7B77448C59D8C77D8 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRendererOGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvRendererOGL.cpp; path = IvGraphics/OGL/IvRendererOGL.cpp; sourceTree = SOURCE_ROOT; };
+		778A692AC4A144189C6FDA23 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvRenderer.cpp; path = IvGraphics/IvRenderer.cpp; sourceTree = SOURCE_ROOT; };
+		787F0FC8D1104E17A50BE284 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvVector4.h; path = IvMath/IvVector4.h; sourceTree = SOURCE_ROOT; };
+		78846E42E8C449C581BF83A5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvTriangle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvTriangle.h; path = IvMath/IvTriangle.h; sourceTree = SOURCE_ROOT; };
+		7A187DBC739A4B4CAF9689D6 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvGaussianElim.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvGaussianElim.h; path = IvMath/IvGaussianElim.h; sourceTree = SOURCE_ROOT; };
+		7A3EFB7B8CAF4DB289CFB5F7 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7CB6CCE0F81E4C76BEA8F4F1 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestRenderTargets/TestRT.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TestRT.cpp; path = Game/Test/TestRenderTargets/TestRT.cpp; sourceTree = SOURCE_ROOT; };
+		7E16487B2D24443A9D15D7FA /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Camera.cpp; path = Game/Camera.cpp; sourceTree = SOURCE_ROOT; };
+		7F56D6C5E7A943609CF8695E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvRenderTarget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvRenderTarget.h; path = IvGraphics/IvRenderTarget.h; sourceTree = SOURCE_ROOT; };
+		839575E754C7452CA07B4FA5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/RenderPacket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RenderPacket.cpp; path = Game/SceneManagement/RenderPacket.cpp; sourceTree = SOURCE_ROOT; };
+		85D87E5AAE994735AB205F04 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvDebugger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvDebugger.cpp; path = IvUtility/IvDebugger.cpp; sourceTree = SOURCE_ROOT; };
+		87C9462D68844484BFAF3F47 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvCapsule.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvCapsule.h; path = IvCollision/IvCapsule.h; sourceTree = SOURCE_ROOT; };
+		8811916F64104C3CBBCD8B9E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvLCG64.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvLCG64.h; path = IvRandom/IvLCG64.h; sourceTree = SOURCE_ROOT; };
+		88472604A83F484A8CCFB543 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvTextureFormats.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvTextureFormats.h; path = IvGraphics/IvTextureFormats.h; sourceTree = SOURCE_ROOT; };
+		8873B3FE59204033863A7C12 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMatrix44.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvMatrix44.cpp; path = IvMath/IvMatrix44.cpp; sourceTree = SOURCE_ROOT; };
+		8968E7D51DE441A18B67BB63 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvRay3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvRay3.h; path = IvMath/IvRay3.h; sourceTree = SOURCE_ROOT; };
+		8AC5F2210F0642BD952AA7B1 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvCatmullRom.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvCatmullRom.h; path = IvCurves/IvCatmullRom.h; sourceTree = SOURCE_ROOT; };
+		8AF87F8DFB9148DDB4A751DE /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvRendererHelp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvRendererHelp.cpp; path = IvGraphics/IvRendererHelp.cpp; sourceTree = SOURCE_ROOT; };
+		8C029CBC843D4B37B97947B8 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvVector3.cpp; path = IvMath/IvVector3.cpp; sourceTree = SOURCE_ROOT; };
+		8D1DB0FC7FD74530A15F3932 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvScene/IvIndexedGeometry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvIndexedGeometry.cpp; path = IvScene/IvIndexedGeometry.cpp; sourceTree = SOURCE_ROOT; };
+		8D3ED4EDB2044B4C8D950190 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvTeapot.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvTeapot.h; path = IvGraphics/IvTeapot.h; sourceTree = SOURCE_ROOT; };
+		8DBB151E6BE24FBF80DEDD8E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvAABB.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvAABB.h; path = IvCollision/IvAABB.h; sourceTree = SOURCE_ROOT; };
+		8DF96EB9AB1F423280DCC053 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvOBB.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvOBB.h; path = IvCollision/IvOBB.h; sourceTree = SOURCE_ROOT; };
+		8F6278DE66B74392B1C30D05 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvVertexFormats.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvVertexFormats.h; path = IvGraphics/IvVertexFormats.h; sourceTree = SOURCE_ROOT; };
+		90AFF260BFED404F8BAA32C7 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvUniformOGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvUniformOGL.h; path = IvGraphics/OGL/IvUniformOGL.h; sourceTree = SOURCE_ROOT; };
+		9113AAAD52994F2DA96207D5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvStackAllocator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvStackAllocator.h; path = IvUtility/IvStackAllocator.h; sourceTree = SOURCE_ROOT; };
+		92619F11CE884E1892BC1483 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvBoundingSphere.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvBoundingSphere.cpp; path = IvCollision/IvBoundingSphere.cpp; sourceTree = SOURCE_ROOT; };
+		92BA445D88D14899BB44FB86 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvTeapot.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvTeapot.cpp; path = IvGraphics/IvTeapot.cpp; sourceTree = SOURCE_ROOT; };
+		9896ACADB6524BB394327E4E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMath.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvMath.cpp; path = IvMath/IvMath.cpp; sourceTree = SOURCE_ROOT; };
+		9F4254DED69642F2B7086103 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvVector2.cpp; path = IvMath/IvVector2.cpp; sourceTree = SOURCE_ROOT; };
+		9FF569C459044E18A054F9FC /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvClock.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvClock.cpp; path = IvEngine/IvClock.cpp; sourceTree = SOURCE_ROOT; };
+		A5346D08FECA46E29118530C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvQuat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvQuat.h; path = IvMath/IvQuat.h; sourceTree = SOURCE_ROOT; };
+		AB422B5362CE47F38DC8DA23 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvWriter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvWriter.h; path = IvUtility/IvWriter.h; sourceTree = SOURCE_ROOT; };
+		AB95929923C54FE18CFEB610 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvFileReader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvFileReader.h; path = IvUtility/IvFileReader.h; sourceTree = SOURCE_ROOT; };
+		ABEF090007804C0D865292E3 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/RandomIncludes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RandomIncludes.cpp; path = IvRandom/RandomIncludes.cpp; sourceTree = SOURCE_ROOT; };
+		ADAFD82E3F3A47C6BF00D6CF /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvMersenne.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvMersenne.h; path = IvRandom/IvMersenne.h; sourceTree = SOURCE_ROOT; };
+		B0DFEEC58CB04FBDAAA7FCE5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/SceneNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SceneNode.cpp; path = Game/SceneManagement/SceneNode.cpp; sourceTree = SOURCE_ROOT; };
+		B5F6CA51B70F4E8F8D1A2EDF /* RacingGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = RacingGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8356D91EEAE4D88B8F6B832 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Game.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Game.cpp; path = Game/Game.cpp; sourceTree = SOURCE_ROOT; };
+		B8567389CE1C47DC84814388 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvRendererHelp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvRendererHelp.h; path = IvGraphics/IvRendererHelp.h; sourceTree = SOURCE_ROOT; };
+		B8BCEDE270A147DD93E8D1F0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvLineSegment3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvLineSegment3.h; path = IvMath/IvLineSegment3.h; sourceTree = SOURCE_ROOT; };
+		BC7F2848085A4BA885DE5CDC /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvLCGPrime.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvLCGPrime.h; path = IvRandom/IvLCGPrime.h; sourceTree = SOURCE_ROOT; };
+		BC9F33343D79415793E89E21 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvFrameBufferOGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvFrameBufferOGL.cpp; path = IvGraphics/OGL/IvFrameBufferOGL.cpp; sourceTree = SOURCE_ROOT; };
+		BDDBD55EA1484BCC9E401BC4 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvKISS.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvKISS.h; path = IvRandom/IvKISS.h; sourceTree = SOURCE_ROOT; };
+		BDFC48332568415F82572113 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvLine3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvLine3.h; path = IvMath/IvLine3.h; sourceTree = SOURCE_ROOT; };
+		C1662AA6E7C44B629ECF4202 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/NodeAnimator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = NodeAnimator.cpp; path = Game/SceneManagement/NodeAnimator.cpp; sourceTree = SOURCE_ROOT; };
+		C30FD75EA288496BAB0653B7 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMatrix44.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvMatrix44.h; path = IvMath/IvMatrix44.h; sourceTree = SOURCE_ROOT; };
+		C9828CA27FE8478998830106 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvMath.h; path = IvMath/IvMath.h; sourceTree = SOURCE_ROOT; };
+		CDA60D32B97A4802872FC43A /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvColor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvColor.h; path = IvGraphics/IvColor.h; sourceTree = SOURCE_ROOT; };
+		CE2841EA29114144B9024608 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvReader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvReader.h; path = IvUtility/IvReader.h; sourceTree = SOURCE_ROOT; };
+		CE609FE31D9F4959BB48247E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvScene/IvHierarchy.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvHierarchy.h; path = IvScene/IvHierarchy.h; sourceTree = SOURCE_ROOT; };
+		D2FB350BB78E431CBB90554B /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvUniformOGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvUniformOGL.cpp; path = IvGraphics/OGL/IvUniformOGL.cpp; sourceTree = SOURCE_ROOT; };
+		D7C14616F3014DDC833B60BE /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/CameraSceneNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CameraSceneNode.cpp; path = Game/SceneManagement/CameraSceneNode.cpp; sourceTree = SOURCE_ROOT; };
+		D87F7EF858884F02B15928B2 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvFrameBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvFrameBuffer.h; path = IvGraphics/IvFrameBuffer.h; sourceTree = SOURCE_ROOT; };
+		D94F3EB8D9ED4B0490080352 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvCustomVertexFormat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvCustomVertexFormat.cpp; path = IvGraphics/OGL/IvCustomVertexFormat.cpp; sourceTree = SOURCE_ROOT; };
+		DA7B3E2F6B0D4E24A014E65E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvLinear.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvLinear.cpp; path = IvCurves/IvLinear.cpp; sourceTree = SOURCE_ROOT; };
+		DC37AEF881D44FE59EFD1896 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvCatmullRom.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvCatmullRom.cpp; path = IvCurves/IvCatmullRom.cpp; sourceTree = SOURCE_ROOT; };
+		E0F94EA5F05A44F29FB42CBC /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMatrix33.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvMatrix33.cpp; path = IvMath/IvMatrix33.cpp; sourceTree = SOURCE_ROOT; };
+		E1BCC3303EEA49AABC98442D /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRendererOGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvRendererOGL.h; path = IvGraphics/OGL/IvRendererOGL.h; sourceTree = SOURCE_ROOT; };
+		E48A7637ED0B49418F063430 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvVertexShader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvVertexShader.h; path = IvGraphics/IvVertexShader.h; sourceTree = SOURCE_ROOT; };
+		E59CB7A6EDEF4046A0298625 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/OGL/IvMainOGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvMainOGL.cpp; path = IvEngine/OGL/IvMainOGL.cpp; sourceTree = SOURCE_ROOT; };
+		E6B079D5ABCA48089AEEA0B7 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvImage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvImage.h; path = IvUtility/IvImage.h; sourceTree = SOURCE_ROOT; };
+		E729FFA95C4941639683178C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvFrameBufferOGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvFrameBufferOGL.h; path = IvGraphics/OGL/IvFrameBufferOGL.h; sourceTree = SOURCE_ROOT; };
+		E7CADEC6ACAD44B1A4CCCCAF /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvUniformBSpline.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvUniformBSpline.h; path = IvCurves/IvUniformBSpline.h; sourceTree = SOURCE_ROOT; };
+		E7EE387EC30B43618FD330D1 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvTypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvTypes.h; path = IvUtility/IvTypes.h; sourceTree = SOURCE_ROOT; };
+		E82065D202B14D299E2F1B96 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/NodeTransform.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = NodeTransform.cpp; path = Game/SceneManagement/NodeTransform.cpp; sourceTree = SOURCE_ROOT; };
+		EAFEB0A02B1B4776ADDDB813 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvUniform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvUniform.h; path = IvGraphics/IvUniform.h; sourceTree = SOURCE_ROOT; };
+		EFC71DDC04C14743A6A530DD /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvHermite.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvHermite.cpp; path = IvCurves/IvHermite.cpp; sourceTree = SOURCE_ROOT; };
+		F35487DF7B6641E8A36583A6 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvHermite.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvHermite.h; path = IvCurves/IvHermite.h; sourceTree = SOURCE_ROOT; };
+		F72D5344A737486985B19FE0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvGame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvGame.cpp; path = IvEngine/IvGame.cpp; sourceTree = SOURCE_ROOT; };
+		F8AD05FFB9ED4B508C402554 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvResourceManagerOGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvResourceManagerOGL.cpp; path = IvGraphics/OGL/IvResourceManagerOGL.cpp; sourceTree = SOURCE_ROOT; };
+		FAB05B87381D4440B4ADB8CE /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvImage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvImage.cpp; path = IvUtility/IvImage.cpp; sourceTree = SOURCE_ROOT; };
+		FB42C7A657044D6886FAC29F /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvRay3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IvRay3.cpp; path = IvMath/IvRay3.cpp; sourceTree = SOURCE_ROOT; };
+		FFC0D943C9E647FB82EAF64F /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvVertexBufferOGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IvVertexBufferOGL.h; path = IvGraphics/OGL/IvVertexBufferOGL.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		13596FC911B340FBA543C9DF /* IvCurves */ = {
+			isa = PBXGroup;
+			children = (
+				62D44423EB18412E8B4CB239 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvBezier.cpp */,
+				7289A91AB05647ECBF7B4FC0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvBezier.h */,
+				DC37AEF881D44FE59EFD1896 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvCatmullRom.cpp */,
+				8AC5F2210F0642BD952AA7B1 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvCatmullRom.h */,
+				EFC71DDC04C14743A6A530DD /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvHermite.cpp */,
+				F35487DF7B6641E8A36583A6 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvHermite.h */,
+				DA7B3E2F6B0D4E24A014E65E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvLinear.cpp */,
+				34DC99B449D9437C9E7C2BB4 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvLinear.h */,
+				2466C51B286E481F8CD7AE09 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvUniformBSpline.cpp */,
+				E7CADEC6ACAD44B1A4CCCCAF /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvUniformBSpline.h */,
+			);
+			name = IvCurves;
+			sourceTree = "<group>";
+		};
+		1858807345C64572883F0E68 /* IvCollision */ = {
+			isa = PBXGroup;
+			children = (
+				6DEF6E5C37FE4DEBADB80BC8 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvAABB.cpp */,
+				8DBB151E6BE24FBF80DEDD8E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvAABB.h */,
+				92619F11CE884E1892BC1483 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvBoundingSphere.cpp */,
+				3D6098AA93384081AAB77B64 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvBoundingSphere.h */,
+				45BD06CEDE794CCCA52EE45E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvCapsule.cpp */,
+				87C9462D68844484BFAF3F47 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvCapsule.h */,
+				71EB67A6D72F4247BDCC844C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvCovariance.cpp */,
+				39C9793E969946CFA9ADD775 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvCovariance.h */,
+				6C2D575240E946FD98DF1BA0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvOBB.cpp */,
+				8DF96EB9AB1F423280DCC053 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvOBB.h */,
+			);
+			name = IvCollision;
+			sourceTree = "<group>";
+		};
+		1C1744F78CED4F4AAD669D5A /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				1858807345C64572883F0E68 /* IvCollision */,
+				13596FC911B340FBA543C9DF /* IvCurves */,
+				22FC1D281442424884C95E29 /* IvEngine */,
+				ED744D632C974C7AB0517E2E /* IvGraphics */,
+				5AF1D0E5D93B48E28573B1FF /* IvMath */,
+				D6B6A790A924404C9968D774 /* IvRandom */,
+				887AD9A3A7994FA192E5DF33 /* IvScene */,
+				E99B49BA1E6345088914DC82 /* IvUtility */,
+				9E8C15C3C2AE4B21A1F62E07 /* Game */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		1FC3168E1E0245B9B211F38E /* OGL */ = {
+			isa = PBXGroup;
+			children = (
+				D94F3EB8D9ED4B0490080352 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvCustomVertexFormat.cpp */,
+				45AB10741B414589A937A7C6 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvFragmentShaderOGL.cpp */,
+				6E0668A3535D41A5A35C85D5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvFragmentShaderOGL.h */,
+				BC9F33343D79415793E89E21 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvFrameBufferOGL.cpp */,
+				E729FFA95C4941639683178C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvFrameBufferOGL.h */,
+				6B12A48DCD0942B1AA5FE032 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvIndexBufferOGL.cpp */,
+				6BB4375922D34C579AFCAF6E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvIndexBufferOGL.h */,
+				36B2028A759A4139947AE9CB /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRenderTargetOGL.cpp */,
+				61E7D40220254DAA8E3802E5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRenderTargetOGL.h */,
+				6827BBF63A9F4A29AFD6EF2D /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRendererHelpOGL.cpp */,
+				0424FEB9A93E497197AFE346 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRendererHelpOGL.h */,
+				772181D7B77448C59D8C77D8 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRendererOGL.cpp */,
+				E1BCC3303EEA49AABC98442D /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRendererOGL.h */,
+				F8AD05FFB9ED4B508C402554 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvResourceManagerOGL.cpp */,
+				1860320E134549E0A6F610C2 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvResourceManagerOGL.h */,
+				1611F534581341B49425FD03 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvShaderProgramOGL.cpp */,
+				3F6AA66C7C3C46F8ABF5A0D0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvShaderProgramOGL.h */,
+				22BAA2D1E391413C8351BF32 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvTextureOGL.cpp */,
+				631FB14B2B6A43A79822A77C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvTextureOGL.h */,
+				D2FB350BB78E431CBB90554B /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvUniformOGL.cpp */,
+				90AFF260BFED404F8BAA32C7 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvUniformOGL.h */,
+				51634AD672224A4BA2ED1F36 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvVertexBufferOGL.cpp */,
+				FFC0D943C9E647FB82EAF64F /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvVertexBufferOGL.h */,
+				4F34ECA805CC47D69C4BEF94 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvVertexShaderOGL.cpp */,
+				622D06204E0747CB86EAD17D /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvVertexShaderOGL.h */,
+			);
+			name = OGL;
+			sourceTree = "<group>";
+		};
+		22FC1D281442424884C95E29 /* IvEngine */ = {
+			isa = PBXGroup;
+			children = (
+				5F98BFC4CE094425AD59EB8B /* OGL */,
+				9FF569C459044E18A054F9FC /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvClock.cpp */,
+				442D82E86B924729BB7B56ED /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvClock.h */,
+				4F50FD82E3384EE3B940E7D0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvEventHandler.cpp */,
+				5CEC06D0E0624D638FEA79D8 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvEventHandler.h */,
+				F72D5344A737486985B19FE0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvGame.cpp */,
+				062165DF1556487A903DF4F3 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvGame.h */,
+			);
+			name = IvEngine;
+			sourceTree = "<group>";
+		};
+		23A8704222CE4F60AB0236B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5F6CA51B70F4E8F8D1A2EDF /* RacingGame */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F4CD654BDBF45B3992B4B7E = {
+			isa = PBXGroup;
+			children = (
+				DD5D338C5EA74DEABDAD7B21 /* RacingGame */,
+				F043EBAA1BA74898B30E10C3 /* ALL_BUILD */,
+				23A8704222CE4F60AB0236B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5889F1957F4646D29801CAC5 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				DD1605D5F0BB40CEB95E888C /* TestCustomAttributes */,
+				CE2871CE2F4C480E90A0EBC3 /* TestRenderTargets */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		5AF1D0E5D93B48E28573B1FF /* IvMath */ = {
+			isa = PBXGroup;
+			children = (
+				2689BA2F8F1E4B468A66538E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvGaussianElim.cpp */,
+				7A187DBC739A4B4CAF9689D6 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvGaussianElim.h */,
+				18EB719B07EF4DB18B55B000 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvLine3.cpp */,
+				BDFC48332568415F82572113 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvLine3.h */,
+				6BEF6CBCFD164A2A8D305DB5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvLineSegment3.cpp */,
+				B8BCEDE270A147DD93E8D1F0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvLineSegment3.h */,
+				9896ACADB6524BB394327E4E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMath.cpp */,
+				C9828CA27FE8478998830106 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMath.h */,
+				E0F94EA5F05A44F29FB42CBC /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMatrix33.cpp */,
+				3AE3431BE2C0428B95C054C0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMatrix33.h */,
+				8873B3FE59204033863A7C12 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMatrix44.cpp */,
+				C30FD75EA288496BAB0653B7 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMatrix44.h */,
+				0AF7D26B1C6A4DBDBFAFC9F7 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvPlane.cpp */,
+				4A116D46F3514CD28802F058 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvPlane.h */,
+				19F3AADF88EF4F89959B674F /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvQuat.cpp */,
+				A5346D08FECA46E29118530C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvQuat.h */,
+				FB42C7A657044D6886FAC29F /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvRay3.cpp */,
+				8968E7D51DE441A18B67BB63 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvRay3.h */,
+				2A1FC4BB7E3F477D99E44B98 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvTriangle.cpp */,
+				78846E42E8C449C581BF83A5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvTriangle.h */,
+				9F4254DED69642F2B7086103 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector2.cpp */,
+				73257DEB529C433485656ED1 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector2.h */,
+				8C029CBC843D4B37B97947B8 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector3.cpp */,
+				761E100EE17B468E9FCF3DF9 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector3.h */,
+				0EEBE96901B54D198EFBFD71 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector4.cpp */,
+				787F0FC8D1104E17A50BE284 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector4.h */,
+			);
+			name = IvMath;
+			sourceTree = "<group>";
+		};
+		5F98BFC4CE094425AD59EB8B /* OGL */ = {
+			isa = PBXGroup;
+			children = (
+				E59CB7A6EDEF4046A0298625 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/OGL/IvMainOGL.cpp */,
+			);
+			name = OGL;
+			sourceTree = "<group>";
+		};
+		887AD9A3A7994FA192E5DF33 /* IvScene */ = {
+			isa = PBXGroup;
+			children = (
+				2DB04279FF3F4A4F9CA44A10 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvScene/IvHierarchy.cpp */,
+				CE609FE31D9F4959BB48247E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvScene/IvHierarchy.h */,
+				8D1DB0FC7FD74530A15F3932 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvScene/IvIndexedGeometry.cpp */,
+				65AF693E25974ABCB0C48D55 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvScene/IvIndexedGeometry.h */,
+			);
+			name = IvScene;
+			sourceTree = "<group>";
+		};
+		9E8C15C3C2AE4B21A1F62E07 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				BC863C9801E947469FC0B732 /* Player */,
+				DF0D2B03606C45879E4C0C2A /* SceneManagement */,
+				5889F1957F4646D29801CAC5 /* Test */,
+				7E16487B2D24443A9D15D7FA /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Camera.cpp */,
+				404372E638114F7E96868B04 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/CameraTestControler.cpp */,
+				B8356D91EEAE4D88B8F6B832 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Game.cpp */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		A9E8F12221D84E06BC63634C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		BC863C9801E947469FC0B732 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				18D7FA4E8E564F21A7886A4B /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Player/Player.cpp */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		CE2871CE2F4C480E90A0EBC3 /* TestRenderTargets */ = {
+			isa = PBXGroup;
+			children = (
+				3890CB0C972547B09C4F1008 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestRenderTargets/Shape.cpp */,
+				7CB6CCE0F81E4C76BEA8F4F1 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestRenderTargets/TestRT.cpp */,
+			);
+			name = TestRenderTargets;
+			sourceTree = "<group>";
+		};
+		D6B6A790A924404C9968D774 /* IvRandom */ = {
+			isa = PBXGroup;
+			children = (
+				11187EDFE23A47D98D847EC6 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvCarryMultiply.h */,
+				BDDBD55EA1484BCC9E401BC4 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvKISS.h */,
+				8811916F64104C3CBBCD8B9E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvLCG64.h */,
+				BC7F2848085A4BA885DE5CDC /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvLCGPrime.h */,
+				3BE6081B575D470E8A4B1CE8 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvMersenne.cpp */,
+				ADAFD82E3F3A47C6BF00D6CF /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvMersenne.h */,
+				42ACAEF0F5F041F1BDB04B62 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvXorshift.h */,
+				ABEF090007804C0D865292E3 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/RandomIncludes.cpp */,
+			);
+			name = IvRandom;
+			sourceTree = "<group>";
+		};
+		DD1605D5F0BB40CEB95E888C /* TestCustomAttributes */ = {
+			isa = PBXGroup;
+			children = (
+				6ACE72FBE6464543A7A84675 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestCustomAttributes/Test.cpp */,
+			);
+			name = TestCustomAttributes;
+			sourceTree = "<group>";
+		};
+		DD5D338C5EA74DEABDAD7B21 /* RacingGame */ = {
+			isa = PBXGroup;
+			children = (
+				1C1744F78CED4F4AAD669D5A /* Header Files */,
+				7A3EFB7B8CAF4DB289CFB5F7 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/CMakeLists.txt */,
+			);
+			name = RacingGame;
+			sourceTree = "<group>";
+		};
+		DF0D2B03606C45879E4C0C2A /* SceneManagement */ = {
+			isa = PBXGroup;
+			children = (
+				D7C14616F3014DDC833B60BE /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/CameraSceneNode.cpp */,
+				3B9FB1550F6F41D7A468E6A6 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/Mesh.cpp */,
+				16F415EF18644CF68A4C729C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/MeshInstance.cpp */,
+				C1662AA6E7C44B629ECF4202 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/NodeAnimator.cpp */,
+				E82065D202B14D299E2F1B96 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/NodeTransform.cpp */,
+				839575E754C7452CA07B4FA5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/RenderPacket.cpp */,
+				69D01316DC5A4BAF81F731FF /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/SceneGraph.cpp */,
+				B0DFEEC58CB04FBDAAA7FCE5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/SceneNode.cpp */,
+			);
+			name = SceneManagement;
+			sourceTree = "<group>";
+		};
+		E99B49BA1E6345088914DC82 /* IvUtility */ = {
+			isa = PBXGroup;
+			children = (
+				519DF91D81EC498196E7547C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvAssert.h */,
+				85D87E5AAE994735AB205F04 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvDebugger.cpp */,
+				57B59566BD2D4CE09576808D /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvDebugger.h */,
+				AB95929923C54FE18CFEB610 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvFileReader.h */,
+				FAB05B87381D4440B4ADB8CE /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvImage.cpp */,
+				E6B079D5ABCA48089AEEA0B7 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvImage.h */,
+				CE2841EA29114144B9024608 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvReader.h */,
+				3ED8BC4EED984680AAF0EA18 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvStackAllocator.cpp */,
+				9113AAAD52994F2DA96207D5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvStackAllocator.h */,
+				E7EE387EC30B43618FD330D1 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvTypes.h */,
+				AB422B5362CE47F38DC8DA23 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvWriter.h */,
+			);
+			name = IvUtility;
+			sourceTree = "<group>";
+		};
+		ED744D632C974C7AB0517E2E /* IvGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				1FC3168E1E0245B9B211F38E /* OGL */,
+				CDA60D32B97A4802872FC43A /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvColor.h */,
+				69D2CF5F08C8418EBDC3F1D5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvFragmentShader.h */,
+				D87F7EF858884F02B15928B2 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvFrameBuffer.h */,
+				6D5B3409577C43ECAC8CEC17 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvIndexBuffer.h */,
+				7F56D6C5E7A943609CF8695E /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvRenderTarget.h */,
+				778A692AC4A144189C6FDA23 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvRenderer.cpp */,
+				58A3A78D8CE148DE9FEECDC3 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvRenderer.h */,
+				8AF87F8DFB9148DDB4A751DE /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvRendererHelp.cpp */,
+				B8567389CE1C47DC84814388 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvRendererHelp.h */,
+				527F38F79BE84127BC1FEE8A /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvResourceManager.h */,
+				57902C70A9B248D0BFE203CC /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvShaderProgram.h */,
+				92BA445D88D14899BB44FB86 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvTeapot.cpp */,
+				8D3ED4EDB2044B4C8D950190 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvTeapot.h */,
+				51234C7CECFE4B0B9BCE6F75 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvTexture.h */,
+				88472604A83F484A8CCFB543 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvTextureFormats.h */,
+				EAFEB0A02B1B4776ADDDB813 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvUniform.h */,
+				4FBA443C429F433AB21E8546 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvVertexBuffer.h */,
+				8F6278DE66B74392B1C30D05 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvVertexFormats.h */,
+				E48A7637ED0B49418F063430 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvVertexShader.h */,
+			);
+			name = IvGraphics;
+			sourceTree = "<group>";
+		};
+		F043EBAA1BA74898B30E10C3 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A9E8F12221D84E06BC63634C /* CMake Rules */,
+				3169C4B885674716B095AA04 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58362941896C4AEDB6734373 /* RacingGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B68ADDAD01874A798284D9E4 /* Build configuration list for PBXNativeTarget "RacingGame" */;
+			buildPhases = (
+				D8E6CEABD8B045F1B463C59A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				124F4206C5AF430EA9F59A9C /* PBXTargetDependency */,
+			);
+			name = RacingGame;
+			productName = RacingGame;
+			productReference = B5F6CA51B70F4E8F8D1A2EDF /* RacingGame */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D606DB76367D49EDB6E4E8FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 6F3EF7901930456996FDF9AF /* Build configuration list for PBXProject "RacingGame" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				B1EEBD72BD6C423FB2AA9C1D /* Debug */,
+				E22C572A94F34AA4A34DEA12 /* Release */,
+				AF0C29D6714B4B7C8699E4FE /* MinSizeRel */,
+				0358E9E5834740869715FDA2 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 2F4CD654BDBF45B3992B4B7E;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				81D749A4BFBF4345BDFC3687 /* ALL_BUILD */,
+				58362941896C4AEDB6734373 /* RacingGame */,
+				207A699EF25C468D8012C889 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0758A8D11B2240829A3AF74C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build -f /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		5235E72CE35B4CB5A28D6F4D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B99C3029EC1546579E1FCC0B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E6ABBB9CFBE4448FB1659FD0 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build -f /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8E6CEABD8B045F1B463C59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26F1145A2B14D738521246C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Camera.cpp */,
+				42302035405B4B9C8CF99073 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/CameraTestControler.cpp */,
+				23479324D0A5424AB0611816 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Game.cpp */,
+				D529C31B9D27449B816F3193 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Player/Player.cpp */,
+				1E3D10E27E114898836D9F2D /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/CameraSceneNode.cpp */,
+				78A14B9EB6454F6C854EDD84 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/Mesh.cpp */,
+				04BDDBEC350D449E8505450B /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/MeshInstance.cpp */,
+				6CE3B69F29A645D08A6C3AFD /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/NodeAnimator.cpp */,
+				8B481F5AA37D4B38B3FA8CFC /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/NodeTransform.cpp */,
+				EE24A7E22D65445BB830230B /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/RenderPacket.cpp */,
+				FAB88F7FE8604A27B9F19D41 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/SceneGraph.cpp */,
+				082CA30C97FB42A896F8C367 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement/SceneNode.cpp */,
+				C96B6957066647B19392E8CD /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestCustomAttributes/Test.cpp */,
+				D9B7AB5D5BE842EAAD51F974 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestRenderTargets/Shape.cpp */,
+				E6F2E437920B4C69BEFA77F0 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestRenderTargets/TestRT.cpp */,
+				8E151C4FECA4460FBDBF360D /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvAABB.cpp */,
+				D69C6F0B23E84A00872B2117 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvBoundingSphere.cpp */,
+				3096C6DA95A24C76B300EA83 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvCapsule.cpp */,
+				02E8DF6D2EDA4F59A1F9B86C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvCovariance.cpp */,
+				6B955373CE4C40E38D2B4ACB /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision/IvOBB.cpp */,
+				53E5A52AAD944CA5B38386A5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvBezier.cpp */,
+				D60E85D5C02F490E971AF5B5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvCatmullRom.cpp */,
+				F7611C14341F4EFCB75EE8DF /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvHermite.cpp */,
+				1FCAA0240EB34A519C1862FF /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvLinear.cpp */,
+				E1EB7A159ADE437DA8E93909 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves/IvUniformBSpline.cpp */,
+				FD583A660F934E28AC888F99 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvClock.cpp */,
+				A8082D842FE74569B530B604 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvEventHandler.cpp */,
+				9378A47766FC408BAA010746 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/IvGame.cpp */,
+				53796A6603724D8881875169 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/OGL/IvMainOGL.cpp */,
+				02CFA5B845E4443BBC015602 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvRenderer.cpp */,
+				501F9DEEC5D84377B657C5E8 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvRendererHelp.cpp */,
+				52711763FE424EFEB816CD62 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/IvTeapot.cpp */,
+				CCBE7ED69C4F4A52AC4D31FA /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvCustomVertexFormat.cpp */,
+				30A82FB405F347829ABB9147 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvFragmentShaderOGL.cpp */,
+				317EEFE8B4484841AE5F39B3 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvFrameBufferOGL.cpp */,
+				F0353F8DE3A54A09B46EC44F /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvIndexBufferOGL.cpp */,
+				7CEDB82FFB1E4EE49AA69167 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRenderTargetOGL.cpp */,
+				D812C3A974C146C08620C9CA /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRendererHelpOGL.cpp */,
+				0DC16A6920AD4E42BDFFE160 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvRendererOGL.cpp */,
+				D7F36D9F653245FAB2ADF541 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvResourceManagerOGL.cpp */,
+				9C0B6375C4DB429C9C29E979 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvShaderProgramOGL.cpp */,
+				ADBE2C1F4C0B4B70816F0F65 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvTextureOGL.cpp */,
+				C1FF73C0EEE9479C910FE8CC /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvUniformOGL.cpp */,
+				8A86C0DC3B114B2DA4ED426C /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvVertexBufferOGL.cpp */,
+				65674EB4D6DE46569D2D33E5 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL/IvVertexShaderOGL.cpp */,
+				7CF0CB95A8834F2CA0A7841F /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvGaussianElim.cpp */,
+				54569F717D8E4400BA55AD83 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvLine3.cpp */,
+				C73DE9032F1C4E6EA84F1721 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvLineSegment3.cpp */,
+				BB5CC0A561E44A67B7DE8C4B /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMath.cpp */,
+				14E914E293484BE7A226FD11 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMatrix33.cpp */,
+				041E1353CA584655935BB5EA /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvMatrix44.cpp */,
+				C34E6B25BB15400186CDED29 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvPlane.cpp */,
+				0C244BBF4BCE4A1AA155BD40 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvQuat.cpp */,
+				96D92C150A9E4449BD45015F /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvRay3.cpp */,
+				E520F6D1226842188BDD578B /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvTriangle.cpp */,
+				231BB169ABBC48059C8E113F /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector2.cpp */,
+				AB1D53D7D3924EABA3A13128 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector3.cpp */,
+				D11BFA646CBA410EB15D2A16 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath/IvVector4.cpp */,
+				B5774166FABF4AF2A57986F3 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/IvMersenne.cpp */,
+				42BF19A27C374C34B967EADB /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom/RandomIncludes.cpp */,
+				B8CFB8B0C5904FF5B8CA97A8 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvScene/IvHierarchy.cpp */,
+				96E5B6420AC147E8A0EEAC27 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvScene/IvIndexedGeometry.cpp */,
+				CE202C5998A6420689342077 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvDebugger.cpp */,
+				BAE4F8FD931D48229FAAE9F9 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvImage.cpp */,
+				DB30CF4929A84ADCA8F1B0F6 /* /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility/IvStackAllocator.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		124F4206C5AF430EA9F59A9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 207A699EF25C468D8012C889 /* ZERO_CHECK */;
+			targetProxy = 86D423ED72A8409FAF9C6945 /* PBXContainerItemProxy */;
+		};
+		27D33DBDC03441DBA698FD88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 207A699EF25C468D8012C889 /* ZERO_CHECK */;
+			targetProxy = CC6EF616D9124C0A8AD699ED /* PBXContainerItemProxy */;
+		};
+		94523B00F24442188006789F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58362941896C4AEDB6734373 /* RacingGame */;
+			targetProxy = CE0F29FBDECF4A93900F0966 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04DD25924DA542B8BF1B3E06 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/../glfw-3.1.1/include",/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/OGL,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvScene,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Player,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/shaders,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/Resources,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestCustomAttributes,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestCustomAttributes/Shader,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestRenderTargets,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestRenderTargets/Shader);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/../glfw-3.1.1/lib-MacOS-10.8";
+				LIBRARY_SEARCH_PATHS = " /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/../glfw-3.1.1/lib-MacOS-10.8/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/../glfw-3.1.1/lib-MacOS-10.8";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Foundation -framework OpenGL -framework CoreVideo -framework IOKit -framework AppKit -lglfw3";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RacingGame;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		064561E2D46A450DBC46528A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		361D8C5CD53545ADB2BBA622 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		37C282B7632B4C1792D99C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3C061B8115EF491AB9DAABFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/../glfw-3.1.1/include",/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/OGL,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvScene,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Player,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/shaders,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/Resources,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestCustomAttributes,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestCustomAttributes/Shader,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestRenderTargets,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestRenderTargets/Shader);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/../glfw-3.1.1/lib-MacOS-10.8";
+				LIBRARY_SEARCH_PATHS = " /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/../glfw-3.1.1/lib-MacOS-10.8/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/../glfw-3.1.1/lib-MacOS-10.8";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Foundation -framework OpenGL -framework CoreVideo -framework IOKit -framework AppKit -lglfw3";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RacingGame;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3CFB98135ABD4CF49DC990AC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		50A74E34544347108C81B40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7423EFEC921E41B384D6AFA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build/build;
+			};
+			name = Debug;
+		};
+		86EAC855B12A46FE815A3D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build/build;
+			};
+			name = Release;
+		};
+		99827300E4DB4DF99A3E827C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/../glfw-3.1.1/include",/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/OGL,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvScene,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Player,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/shaders,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/Resources,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestCustomAttributes,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestCustomAttributes/Shader,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestRenderTargets,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestRenderTargets/Shader);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/../glfw-3.1.1/lib-MacOS-10.8";
+				LIBRARY_SEARCH_PATHS = " /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/../glfw-3.1.1/lib-MacOS-10.8/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/../glfw-3.1.1/lib-MacOS-10.8";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Foundation -framework OpenGL -framework CoreVideo -framework IOKit -framework AppKit -lglfw3";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RacingGame;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A9F8A6CF7EFD4A2A96F3EBA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/../glfw-3.1.1/include",/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCollision,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvCurves,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvEngine/OGL,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvGraphics/OGL,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvMath,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvRandom,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvScene,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/IvUtility,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Player,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/SceneManagement,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/shaders,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/Resources,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestCustomAttributes,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestCustomAttributes/Shader,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestRenderTargets,/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/Game/Test/TestRenderTargets/Shader);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/../glfw-3.1.1/lib-MacOS-10.8";
+				LIBRARY_SEARCH_PATHS = " /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/../glfw-3.1.1/lib-MacOS-10.8/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/../glfw-3.1.1/lib-MacOS-10.8";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Foundation -framework OpenGL -framework CoreVideo -framework IOKit -framework AppKit -lglfw3";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RacingGame;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C23341EAF80746DF947A18E3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DE27E70AA3DE44DA90D2ACD1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E1C8B1F1C3EB4613BAB0431D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EBC2ED0DC5F04493AD3A80E7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build/build;
+			};
+			name = MinSizeRel;
+		};
+		FB048B14973F4C77991870B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5209DD1B33224C1BAEDE47F4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064561E2D46A450DBC46528A /* Debug */,
+				37C282B7632B4C1792D99C97 /* Release */,
+				C23341EAF80746DF947A18E3 /* MinSizeRel */,
+				DE27E70AA3DE44DA90D2ACD1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6F3EF7901930456996FDF9AF /* Build configuration list for PBXProject "RacingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7423EFEC921E41B384D6AFA0 /* Debug */,
+				86EAC855B12A46FE815A3D4A /* Release */,
+				EBC2ED0DC5F04493AD3A80E7 /* MinSizeRel */,
+				361D8C5CD53545ADB2BBA622 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7B09C3BFABBA432BAA6D90E3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB048B14973F4C77991870B5 /* Debug */,
+				50A74E34544347108C81B40D /* Release */,
+				3CFB98135ABD4CF49DC990AC /* MinSizeRel */,
+				E1C8B1F1C3EB4613BAB0431D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B68ADDAD01874A798284D9E4 /* Build configuration list for PBXNativeTarget "RacingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F8A6CF7EFD4A2A96F3EBA5 /* Debug */,
+				3C061B8115EF491AB9DAABFE /* Release */,
+				99827300E4DB4DF99A3E827C /* MinSizeRel */,
+				04DD25924DA542B8BF1B3E06 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D606DB76367D49EDB6E4E8FF /* Project object */;
+}

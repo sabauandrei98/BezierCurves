@@ -1,0 +1,3 @@
+/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build/CMakeFiles/RacingGame.dir
+/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build/CMakeFiles/ALL_BUILD.dir
+/Users/andreis4/Desktop/Telenav/TelenavGame/Game/MyProject/build/CMakeFiles/ZERO_CHECK.dir

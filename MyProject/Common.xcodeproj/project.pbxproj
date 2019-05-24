@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CEEFF7BD1B7FB35C006B1B1A /* Libs */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CEEFF7BE1B7FB35C006B1B1A /* Build configuration list for PBXAggregateTarget "Libs" */;
+			buildPhases = (
+			);
+			dependencies = (
+				CEEFF7C21B7FB378006B1B1A /* PBXTargetDependency */,
+				CEEFF7C41B7FB378006B1B1A /* PBXTargetDependency */,
+				CEEFF7C61B7FB378006B1B1A /* PBXTargetDependency */,
+				CEEFF7C81B7FB378006B1B1A /* PBXTargetDependency */,
+				CEEFF7CA1B7FB378006B1B1A /* PBXTargetDependency */,
+				CEEFF7CC1B7FB378006B1B1A /* PBXTargetDependency */,
+				CEEFF7CE1B7FB378006B1B1A /* PBXTargetDependency */,
+				CEEFF7D01B7FB378006B1B1A /* PBXTargetDependency */,
+			);
+			name = Libs;
+			productName = Libs;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		011071632244E502006011E1 /* libIvCollision.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEFF7921B7FB311006B1B1A /* libIvCollision.a */; };
+		011071642244E502006011E1 /* libIvCurves.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEFF7981B7FB31C006B1B1A /* libIvCurves.a */; };
+		011071652244E502006011E1 /* libIvEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEFF79E1B7FB326006B1B1A /* libIvEngine.a */; };
+		011071662244E502006011E1 /* libIvGraphics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEFF7A41B7FB32E006B1B1A /* libIvGraphics.a */; };
+		011071672244E502006011E1 /* libIvMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEFF7AA1B7FB336006B1B1A /* libIvMath.a */; };
+		011071682244E502006011E1 /* libIvRandom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEFF7B01B7FB33D006B1B1A /* libIvRandom.a */; };
+		011071692244E502006011E1 /* libIvScene.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEFF7B61B7FB344006B1B1A /* libIvScene.a */; };
+		0110716A2244E502006011E1 /* libIvUtility.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEFF7BC1B7FB34E006B1B1A /* libIvUtility.a */; };
+		0110716B2244E536006011E1 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 011071382244E270006011E1 /* libc++.tbd */; };
+		011071822244EA6B006011E1 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011071812244EA6B006011E1 /* OpenGL.framework */; };
+		011071842244EAA9006011E1 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 011071832244EAA9006011E1 /* libglfw3.a */; };
+		011071862244EACE006011E1 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011071852244EACE006011E1 /* AppKit.framework */; };
+		011071882244EAD8006011E1 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011071872244EAD8006011E1 /* IOKit.framework */; };
+		0110718A2244EAF0006011E1 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011071892244EAF0006011E1 /* CoreVideo.framework */; };
+		0110718C2244EAFB006011E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0110718B2244EAFB006011E1 /* Foundation.framework */; };
+		01A1F88A225E0C8E00D8431F /* RoadGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A1F888225E0C8E00D8431F /* RoadGenerator.cpp */; };
+		01AAFDF022535DA000472426 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01AAFDEE22535DA000472426 /* Game.cpp */; };
+		01AAFE082254EBA900472426 /* BezierCurve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01AAFE062254EBA900472426 /* BezierCurve.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEEFF7911B7FB311006B1B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEFF78D1B7FB311006B1B1A /* IvCollision.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC046055464E500DB518D;
+			remoteInfo = IvCollision;
+		};
+		CEEFF7971B7FB31C006B1B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEFF7931B7FB31C006B1B1A /* IvCurves.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC046055464E500DB518D;
+			remoteInfo = IvCurves;
+		};
+		CEEFF79D1B7FB326006B1B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEFF7991B7FB326006B1B1A /* IvEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = IvEngine;
+		};
+		CEEFF7A31B7FB32E006B1B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEFF79F1B7FB32E006B1B1A /* IvGraphics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC046055464E500DB518D;
+			remoteInfo = IvGraphics;
+		};
+		CEEFF7A91B7FB336006B1B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEFF7A51B7FB336006B1B1A /* IvMath.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = IvMath;
+		};
+		CEEFF7AF1B7FB33D006B1B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEFF7AB1B7FB33D006B1B1A /* IvRandom.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = IvRandom;
+		};
+		CEEFF7B51B7FB344006B1B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEFF7B11B7FB344006B1B1A /* IvScene.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC046055464E500DB518D;
+			remoteInfo = IvScene;
+		};
+		CEEFF7BB1B7FB34E006B1B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEFF7B71B7FB34E006B1B1A /* IvUtility.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = IvUtility;
+		};
+		CEEFF7C11B7FB378006B1B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEFF7B71B7FB34E006B1B1A /* IvUtility.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = IvUtility;
+		};
+		CEEFF7C31B7FB378006B1B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEFF7B11B7FB344006B1B1A /* IvScene.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC045055464E500DB518D;
+			remoteInfo = IvScene;
+		};
+		CEEFF7C51B7FB378006B1B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEFF7AB1B7FB33D006B1B1A /* IvRandom.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = IvRandom;
+		};
+		CEEFF7C71B7FB378006B1B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEFF7A51B7FB336006B1B1A /* IvMath.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = IvMath;
+		};
+		CEEFF7C91B7FB378006B1B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEFF79F1B7FB32E006B1B1A /* IvGraphics.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC045055464E500DB518D;
+			remoteInfo = IvGraphics;
+		};
+		CEEFF7CB1B7FB378006B1B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEFF7991B7FB326006B1B1A /* IvEngine.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = IvEngine;
+		};
+		CEEFF7CD1B7FB378006B1B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEFF7931B7FB31C006B1B1A /* IvCurves.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC045055464E500DB518D;
+			remoteInfo = IvCurves;
+		};
+		CEEFF7CF1B7FB378006B1B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEFF78D1B7FB311006B1B1A /* IvCollision.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC045055464E500DB518D;
+			remoteInfo = IvCollision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		011071452244E4A9006011E1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		011071382244E270006011E1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		0110717A2244E83D006011E1 /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = "../glfw-3.1.1/lib-MacOS-10.8/libglfw3.a"; sourceTree = "<group>"; };
+		011071812244EA6B006011E1 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		011071832244EAA9006011E1 /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = "../../../../Downloads/essentialmath-master/src/glfw-3.1.1/lib-MacOS-10.8/libglfw3.a"; sourceTree = "<group>"; };
+		011071852244EACE006011E1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		011071872244EAD8006011E1 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		011071892244EAF0006011E1 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0110718B2244EAFB006011E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01A1F888225E0C8E00D8431F /* RoadGenerator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RoadGenerator.cpp; sourceTree = "<group>"; };
+		01A1F889225E0C8E00D8431F /* RoadGenerator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RoadGenerator.hpp; sourceTree = "<group>"; };
+		01AAFDEE22535DA000472426 /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		01AAFDF122535E5300472426 /* Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Game; sourceTree = BUILT_PRODUCTS_DIR; };
+		01AAFE012254EB1D00472426 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		01AAFE062254EBA900472426 /* BezierCurve.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BezierCurve.cpp; sourceTree = "<group>"; };
+		01AAFE072254EBA900472426 /* BezierCurve.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BezierCurve.hpp; sourceTree = "<group>"; };
+		CEEFF78D1B7FB311006B1B1A /* IvCollision.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IvCollision.xcodeproj; path = IvCollision/IvCollision.xcodeproj; sourceTree = "<group>"; };
+		CEEFF7931B7FB31C006B1B1A /* IvCurves.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IvCurves.xcodeproj; path = IvCurves/IvCurves.xcodeproj; sourceTree = "<group>"; };
+		CEEFF7991B7FB326006B1B1A /* IvEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IvEngine.xcodeproj; path = IvEngine/IvEngine.xcodeproj; sourceTree = "<group>"; };
+		CEEFF79F1B7FB32E006B1B1A /* IvGraphics.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IvGraphics.xcodeproj; path = IvGraphics/IvGraphics.xcodeproj; sourceTree = "<group>"; };
+		CEEFF7A51B7FB336006B1B1A /* IvMath.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IvMath.xcodeproj; path = IvMath/IvMath.xcodeproj; sourceTree = "<group>"; };
+		CEEFF7AB1B7FB33D006B1B1A /* IvRandom.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IvRandom.xcodeproj; path = IvRandom/IvRandom.xcodeproj; sourceTree = "<group>"; };
+		CEEFF7B11B7FB344006B1B1A /* IvScene.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IvScene.xcodeproj; path = IvScene/IvScene.xcodeproj; sourceTree = "<group>"; };
+		CEEFF7B71B7FB34E006B1B1A /* IvUtility.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IvUtility.xcodeproj; path = IvUtility/IvUtility.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		011071442244E4A9006011E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0110718C2244EAFB006011E1 /* Foundation.framework in Frameworks */,
+				0110718A2244EAF0006011E1 /* CoreVideo.framework in Frameworks */,
+				011071882244EAD8006011E1 /* IOKit.framework in Frameworks */,
+				011071862244EACE006011E1 /* AppKit.framework in Frameworks */,
+				011071822244EA6B006011E1 /* OpenGL.framework in Frameworks */,
+				0110716B2244E536006011E1 /* libc++.tbd in Frameworks */,
+				011071632244E502006011E1 /* libIvCollision.a in Frameworks */,
+				011071842244EAA9006011E1 /* libglfw3.a in Frameworks */,
+				011071642244E502006011E1 /* libIvCurves.a in Frameworks */,
+				011071652244E502006011E1 /* libIvEngine.a in Frameworks */,
+				011071662244E502006011E1 /* libIvGraphics.a in Frameworks */,
+				011071672244E502006011E1 /* libIvMath.a in Frameworks */,
+				011071682244E502006011E1 /* libIvRandom.a in Frameworks */,
+				011071692244E502006011E1 /* libIvScene.a in Frameworks */,
+				0110716A2244E502006011E1 /* libIvUtility.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		011071372244E270006011E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0110718B2244EAFB006011E1 /* Foundation.framework */,
+				011071892244EAF0006011E1 /* CoreVideo.framework */,
+				011071872244EAD8006011E1 /* IOKit.framework */,
+				011071852244EACE006011E1 /* AppKit.framework */,
+				011071832244EAA9006011E1 /* libglfw3.a */,
+				011071812244EA6B006011E1 /* OpenGL.framework */,
+				0110717A2244E83D006011E1 /* libglfw3.a */,
+				011071382244E270006011E1 /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		011071482244E4A9006011E1 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				01A1F887225E0C7200D8431F /* RoadGenerator */,
+				01AAFE052254EB8300472426 /* Bezier */,
+				01AAFE012254EB1D00472426 /* Game.h */,
+				01AAFDEE22535DA000472426 /* Game.cpp */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		01A1F887225E0C7200D8431F /* RoadGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				01A1F889225E0C8E00D8431F /* RoadGenerator.hpp */,
+				01A1F888225E0C8E00D8431F /* RoadGenerator.cpp */,
+			);
+			path = RoadGenerator;
+			sourceTree = "<group>";
+		};
+		01AAFE052254EB8300472426 /* Bezier */ = {
+			isa = PBXGroup;
+			children = (
+				01AAFE072254EBA900472426 /* BezierCurve.hpp */,
+				01AAFE062254EBA900472426 /* BezierCurve.cpp */,
+			);
+			path = Bezier;
+			sourceTree = "<group>";
+		};
+		CE9F6FF61B7FB2E1007A3522 = {
+			isa = PBXGroup;
+			children = (
+				CEEFF7B71B7FB34E006B1B1A /* IvUtility.xcodeproj */,
+				CEEFF7B11B7FB344006B1B1A /* IvScene.xcodeproj */,
+				CEEFF7AB1B7FB33D006B1B1A /* IvRandom.xcodeproj */,
+				CEEFF7A51B7FB336006B1B1A /* IvMath.xcodeproj */,
+				CEEFF79F1B7FB32E006B1B1A /* IvGraphics.xcodeproj */,
+				CEEFF7991B7FB326006B1B1A /* IvEngine.xcodeproj */,
+				CEEFF7931B7FB31C006B1B1A /* IvCurves.xcodeproj */,
+				CEEFF78D1B7FB311006B1B1A /* IvCollision.xcodeproj */,
+				011071482244E4A9006011E1 /* Game */,
+				011071372244E270006011E1 /* Frameworks */,
+				01AAFDF122535E5300472426 /* Game */,
+			);
+			sourceTree = "<group>";
+		};
+		CEEFF78E1B7FB311006B1B1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEEFF7921B7FB311006B1B1A /* libIvCollision.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEEFF7941B7FB31C006B1B1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEEFF7981B7FB31C006B1B1A /* libIvCurves.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEEFF79A1B7FB326006B1B1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEEFF79E1B7FB326006B1B1A /* libIvEngine.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEEFF7A01B7FB32E006B1B1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEEFF7A41B7FB32E006B1B1A /* libIvGraphics.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEEFF7A61B7FB336006B1B1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEEFF7AA1B7FB336006B1B1A /* libIvMath.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEEFF7AC1B7FB33D006B1B1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEEFF7B01B7FB33D006B1B1A /* libIvRandom.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEEFF7B21B7FB344006B1B1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEEFF7B61B7FB344006B1B1A /* libIvScene.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEEFF7B81B7FB34E006B1B1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEEFF7BC1B7FB34E006B1B1A /* libIvUtility.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		011071462244E4A9006011E1 /* Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0110714B2244E4A9006011E1 /* Build configuration list for PBXNativeTarget "Game" */;
+			buildPhases = (
+				011071432244E4A9006011E1 /* Sources */,
+				011071442244E4A9006011E1 /* Frameworks */,
+				011071452244E4A9006011E1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Game;
+			productName = Game;
+			productReference = 01AAFDF122535E5300472426 /* Game */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE9F6FF71B7FB2E1007A3522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				TargetAttributes = {
+					011071462244E4A9006011E1 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
+					CEEFF7BD1B7FB35C006B1B1A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = CE9F6FFA1B7FB2E1007A3522 /* Build configuration list for PBXProject "Common" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE9F6FF61B7FB2E1007A3522;
+			productRefGroup = CE9F6FF61B7FB2E1007A3522;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CEEFF78E1B7FB311006B1B1A /* Products */;
+					ProjectRef = CEEFF78D1B7FB311006B1B1A /* IvCollision.xcodeproj */;
+				},
+				{
+					ProductGroup = CEEFF7941B7FB31C006B1B1A /* Products */;
+					ProjectRef = CEEFF7931B7FB31C006B1B1A /* IvCurves.xcodeproj */;
+				},
+				{
+					ProductGroup = CEEFF79A1B7FB326006B1B1A /* Products */;
+					ProjectRef = CEEFF7991B7FB326006B1B1A /* IvEngine.xcodeproj */;
+				},
+				{
+					ProductGroup = CEEFF7A01B7FB32E006B1B1A /* Products */;
+					ProjectRef = CEEFF79F1B7FB32E006B1B1A /* IvGraphics.xcodeproj */;
+				},
+				{
+					ProductGroup = CEEFF7A61B7FB336006B1B1A /* Products */;
+					ProjectRef = CEEFF7A51B7FB336006B1B1A /* IvMath.xcodeproj */;
+				},
+				{
+					ProductGroup = CEEFF7AC1B7FB33D006B1B1A /* Products */;
+					ProjectRef = CEEFF7AB1B7FB33D006B1B1A /* IvRandom.xcodeproj */;
+				},
+				{
+					ProductGroup = CEEFF7B21B7FB344006B1B1A /* Products */;
+					ProjectRef = CEEFF7B11B7FB344006B1B1A /* IvScene.xcodeproj */;
+				},
+				{
+					ProductGroup = CEEFF7B81B7FB34E006B1B1A /* Products */;
+					ProjectRef = CEEFF7B71B7FB34E006B1B1A /* IvUtility.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CEEFF7BD1B7FB35C006B1B1A /* Libs */,
+				011071462244E4A9006011E1 /* Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CEEFF7921B7FB311006B1B1A /* libIvCollision.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libIvCollision.a;
+			remoteRef = CEEFF7911B7FB311006B1B1A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEEFF7981B7FB31C006B1B1A /* libIvCurves.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libIvCurves.a;
+			remoteRef = CEEFF7971B7FB31C006B1B1A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEEFF79E1B7FB326006B1B1A /* libIvEngine.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libIvEngine.a;
+			remoteRef = CEEFF79D1B7FB326006B1B1A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEEFF7A41B7FB32E006B1B1A /* libIvGraphics.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libIvGraphics.a;
+			remoteRef = CEEFF7A31B7FB32E006B1B1A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEEFF7AA1B7FB336006B1B1A /* libIvMath.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libIvMath.a;
+			remoteRef = CEEFF7A91B7FB336006B1B1A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEEFF7B01B7FB33D006B1B1A /* libIvRandom.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libIvRandom.a;
+			remoteRef = CEEFF7AF1B7FB33D006B1B1A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEEFF7B61B7FB344006B1B1A /* libIvScene.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libIvScene.a;
+			remoteRef = CEEFF7B51B7FB344006B1B1A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEEFF7BC1B7FB34E006B1B1A /* libIvUtility.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libIvUtility.a;
+			remoteRef = CEEFF7BB1B7FB34E006B1B1A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		011071432244E4A9006011E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AAFE082254EBA900472426 /* BezierCurve.cpp in Sources */,
+				01A1F88A225E0C8E00D8431F /* RoadGenerator.cpp in Sources */,
+				01AAFDF022535DA000472426 /* Game.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEEFF7C21B7FB378006B1B1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IvUtility;
+			targetProxy = CEEFF7C11B7FB378006B1B1A /* PBXContainerItemProxy */;
+		};
+		CEEFF7C41B7FB378006B1B1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IvScene;
+			targetProxy = CEEFF7C31B7FB378006B1B1A /* PBXContainerItemProxy */;
+		};
+		CEEFF7C61B7FB378006B1B1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IvRandom;
+			targetProxy = CEEFF7C51B7FB378006B1B1A /* PBXContainerItemProxy */;
+		};
+		CEEFF7C81B7FB378006B1B1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IvMath;
+			targetProxy = CEEFF7C71B7FB378006B1B1A /* PBXContainerItemProxy */;
+		};
+		CEEFF7CA1B7FB378006B1B1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IvGraphics;
+			targetProxy = CEEFF7C91B7FB378006B1B1A /* PBXContainerItemProxy */;
+		};
+		CEEFF7CC1B7FB378006B1B1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IvEngine;
+			targetProxy = CEEFF7CB1B7FB378006B1B1A /* PBXContainerItemProxy */;
+		};
+		CEEFF7CE1B7FB378006B1B1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IvCurves;
+			targetProxy = CEEFF7CD1B7FB378006B1B1A /* PBXContainerItemProxy */;
+		};
+		CEEFF7D01B7FB378006B1B1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IvCollision;
+			targetProxy = CEEFF7CF1B7FB378006B1B1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0110714C2244E4A9006011E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../MyProject/**";
+				LIBRARY_SEARCH_PATHS = "../glfw-3.1.1/lib-MacOS-10.8/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0110714D2244E4A9006011E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../MyProject/**";
+				LIBRARY_SEARCH_PATHS = "../glfw-3.1.1/lib-MacOS-10.8/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CE9F6FFB1B7FB2E1007A3522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		CE9F6FFC1B7FB2E1007A3522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		CEEFF7BF1B7FB35C006B1B1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEEFF7C01B7FB35C006B1B1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0110714B2244E4A9006011E1 /* Build configuration list for PBXNativeTarget "Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0110714C2244E4A9006011E1 /* Debug */,
+				0110714D2244E4A9006011E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9F6FFA1B7FB2E1007A3522 /* Build configuration list for PBXProject "Common" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9F6FFB1B7FB2E1007A3522 /* Debug */,
+				CE9F6FFC1B7FB2E1007A3522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEEFF7BE1B7FB35C006B1B1A /* Build configuration list for PBXAggregateTarget "Libs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEFF7BF1B7FB35C006B1B1A /* Debug */,
+				CEEFF7C01B7FB35C006B1B1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE9F6FF71B7FB2E1007A3522 /* Project object */;
+}
